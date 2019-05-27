@@ -16,8 +16,11 @@ serviceWorker.unregister();
 
 //App
   //Nav
-  //HomeScreenImage
+  //Home
+    //ImageGallery
   //Projects
     //ProjectCards
+  //Blog
+    //Posts
   //Contact
     //ContactForm
