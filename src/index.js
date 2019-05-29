@@ -18,6 +18,7 @@ serviceWorker.unregister();
   //Nav
   //Home
     //ImageGallery
+  //ABOUT
   //Projects
     //ProjectCards
   //Blog

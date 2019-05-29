@@ -1,4 +1,5 @@
 import React from "react";
+import Post from './Post'
 
 class Blog extends React.Component {
 

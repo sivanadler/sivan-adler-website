@@ -1,4 +1,5 @@
 import React from "react";
+import ProjectCard from './ProjectCard'
 
 class Project extends React.Component {
 
