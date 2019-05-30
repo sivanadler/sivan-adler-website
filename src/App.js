@@ -15,9 +15,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-
+        <Nav history={this.props.history}/>
           <Route exact path="/about" render={routerProps => <About {...routerProps}/>}/>
-        </Router>
       </div>
     );
   }

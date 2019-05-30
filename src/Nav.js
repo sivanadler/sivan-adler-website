@@ -4,6 +4,10 @@ import { Redirect } from 'react-router'
 
 class Nav extends React.Component {
 
+  handleAboutMe = () => {
+    this.props.history.push('/about')
+  }
+
   render() {
     return (
       <div className="nav">
