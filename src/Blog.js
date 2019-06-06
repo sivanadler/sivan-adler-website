@@ -1,12 +1,14 @@
 import React from "react";
 import Post from './Post'
+import Nav from './Nav'
 
 class Blog extends React.Component {
 
   render() {
     return (
       <div>
-        <Post />
+        <Nav history={this.props.history}/>
+        <h1>BLOG</h1>
       </div>
     )
   }
