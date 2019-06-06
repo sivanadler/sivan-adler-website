@@ -8,7 +8,7 @@ class Blog extends React.Component {
     return (
       <div>
         <Nav history={this.props.history}/>
-        <h1>BLOG</h1>
+        <h1 className="header">BLOG</h1>
       </div>
     )
   }

@@ -8,7 +8,7 @@ class Project extends React.Component {
     return (
       <div>
         <Nav history={this.props.history}/>
-        <h1>PROJECTS</h1>
+        <h1 className="header">PROJECTS</h1>
       </div>
     )
   }

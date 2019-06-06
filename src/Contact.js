@@ -8,7 +8,7 @@ class Contact extends React.Component {
     return (
       <div>
         <Nav history={this.props.history}/>
-        <h1>CONTACT</h1>
+        <h1 className="header">CONTACT</h1>
       </div>
     )
   }
