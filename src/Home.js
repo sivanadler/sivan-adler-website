@@ -5,8 +5,9 @@ class Home extends React.Component {
 
   render() {
     return (
-      <div>
-        <h1 className="header">Hello World</h1>
+      <div className="home-page-div">
+        <h1 className="header">SIVAN ADLER</h1>
+        <h3 className="sub-header">Full Stack Software Engineer</h3>
       </div>
     )
   }

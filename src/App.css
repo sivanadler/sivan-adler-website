@@ -1,3 +1,23 @@
+/* HOME PAGE */
+.home-page-div{
+  border: 1px solid black;
+  margin: 10%;
+  padding: 3%;
+}
+
+/* HEADER STYLING*/
+.header {
+  text-align: center;
+  font-size: 80px;
+}
+
+.sub-header {
+  text-align: center;
+  font-size: 50px;
+}
+
+
+/* ABOUT ME PAGE*/
 .about-me-image {
   float: right;
   display: inline;
@@ -9,9 +29,4 @@
   display: inline;
   width: 50%;
   margin: 2%;
-}
-
-.header {
-  text-align: center;
-  font-size: 80px;
 }

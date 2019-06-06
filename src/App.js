@@ -16,10 +16,12 @@ class App extends React.Component {
     return (
       <div className="App">
         <Nav history={this.props.history}/>
+          <Route exact path="/home" render={routerProps => <Home {...routerProps}/>}/>
           <Route exact path="/about" render={routerProps => <About {...routerProps}/>}/>
           <Route exact path="/projects" render={routerProps => <Project {...routerProps}/>}/>
           <Route exact path="/blog" render={routerProps => <Blog {...routerProps}/>}/>
           <Route exact path="/contact" render={routerProps => <Contact {...routerProps}/>}/>
+        <Home />
       </div>
     );
   }
