@@ -29,3 +29,10 @@
   width: 50%;
   margin: 2%;
 }
+
+/* CONTACT PAGE*/
+.contact-form {
+  width: 100%;
+  background-color: pink;
+  text-align: center;
+}
