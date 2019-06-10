@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import About from './About';
 import Project from './Project';
-import Blog from './Blog';
 import Contact from './Contact';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
@@ -14,7 +13,6 @@ ReactDOM.render(
     <Route exact path="/" component={App} />
     <Route exact path="/about" component={About} />
     <Route exact path="/projects" component={Project} />
-    <Route exact path="/blog" component={Blog} />
     <Route exact path="/contact" component={Contact} />
 
   </Router>
@@ -31,7 +29,6 @@ serviceWorker.unregister();
 //App
   //Nav
   //Home
-    //ImageGallery
   //About
   //Projects
     //ProjectCards

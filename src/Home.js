@@ -1,5 +1,4 @@
 import React from "react";
-import ImageGallery from './ImageGallery'
 
 class Home extends React.Component {
 
