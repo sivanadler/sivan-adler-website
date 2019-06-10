@@ -1,19 +1,47 @@
+body {
+  background-image: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* NAV BAR */
+.nav {
+  background-color: #5e5b55;
+}
+
+.main-nav-link{
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+}
+
 /* HOME PAGE */
 .home-page-div{
-  border: 1px solid black;
-  margin: 10%;
-  padding: 3%;
+  border: 4px solid #5e5b55;
+  margin-top: 12%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5%;
+  background-color: white;
+
 }
 
 /* HEADER STYLING*/
 .header {
   text-align: center;
-  font-size: 80px;
+  font-size: 100px;
+  color: #5e5b55;
 }
 
 .sub-header {
   text-align: center;
   font-size: 50px;
+  color: #5e5b55;
 }
 
 /* ABOUT ME PAGE*/
