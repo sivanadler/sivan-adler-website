@@ -13,11 +13,19 @@ body {
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
   text-align: center;
   font-size: 40px;
   text-decoration: none;
   color: white;
+}
+
+.main-nav-link:hover {
+  background-color: white;
+  color: #5e5b55;
 }
 
 /* HOME PAGE */
@@ -48,14 +56,20 @@ body {
 .about-me-image {
   float: right;
   display: inline;
-  margin: 2%;
+  margin-right: 8%;
+  width: 30%;
 }
 
 .about-me-description {
   float: left;
   display: inline;
   width: 50%;
-  margin: 2%;
+  margin-left: 8%;
+  margin-right: 2%;
+  font-size: 40px;
+  background-color: white;
+  padding: 20px;
+  color: #5e5b55;
 }
 
 /* CONTACT PAGE*/
