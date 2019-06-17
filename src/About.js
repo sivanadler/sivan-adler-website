@@ -13,6 +13,10 @@ class About extends React.Component {
           <br/>
           <h2>TECHNICAL SKILLS</h2>
           <p>React, Javascript, Redux, Ruby, Rails, SQL, HTML, CSS, Git, Amazon Web Services (AWS), Twilio, Mapbox </p>
+          <br/>
+          <h2>MORE RESOURCES</h2>
+          <span><a class="portfolio-links" href="https://sivanadler.wordpress.com/">BLOG</a></span>
+          <span><a class="portfolio-links" href="https://sivanadler.wixsite.com/sivanportfolio">ART & DESIGN</a></span>
         </div>
         <img className="about-me-image" src={sivan} alt="photo of sivan adler" />
       </div>
