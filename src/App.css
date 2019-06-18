@@ -84,8 +84,8 @@ body {
   border-radius: 1em;
   margin-left: 10%;
   margin-right: 10%;
-  padding-top: 5%;
-  height: 800px;
+  padding-top: 1%;
+  height: 1000px;
   text-align: center;
 }
 
@@ -124,7 +124,6 @@ textarea {
   border: 1px solid #5e5b55;
 }
 
-
 .contact-form a:hover {
   text-decoration: none;
   text-transform: uppercase;
@@ -134,4 +133,13 @@ textarea {
   padding: 1%;
   border-radius: 5px;
   border: 1px solid #5e5b55;
+}
+
+.contact-sub-header {
+  font-size: 55px;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: #5e5b55;
+  margin-bottom: 4%;
+  /* text-decoration: underline; */
 }
