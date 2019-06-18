@@ -10,6 +10,7 @@ class Contact extends React.Component {
       <div>
         <Nav history={this.props.history}/>
         <h1 className="header">CONTACT</h1>
+
         <ReactContactForm
           titlePlaceholder="Subject"
           contentsPlaceholder="Message..."
