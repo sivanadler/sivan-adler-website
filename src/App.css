@@ -81,6 +81,31 @@ body {
 
 }
 
+/* PROJECTS PAGE*/
+.project-card {
+  background-color: white;
+  padding: 2%;
+  margin-top:5%;
+  margin-bottom:5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  border-radius: 1em;
+}
+
+.project-card-header {
+  font-size: 70px;
+  color: #5e5b55;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.project-card-header:hover {
+  font-size: 75px;
+  color: pink;
+}
+
+
 /* CONTACT PAGE*/
 .contact-form {
   background-color: white;
