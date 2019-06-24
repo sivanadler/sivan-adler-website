@@ -105,6 +105,27 @@ body {
   color: pink;
 }
 
+.project-card-sub-header {
+  font-size: 35px;
+  color: white;
+  text-transform: uppercase;
+  padding: 1%;
+  background: rgb(94,91,85);
+  background: linear-gradient(90deg, rgba(94,91,85,1) 0%, rgba(94,91,85,1) 36%, rgba(181,175,164,1) 49%, rgba(200,195,187,1) 56%, rgba(255,255,255,0) 65%);
+}
+
+.text-div {
+  width: 40%;
+  display: grid;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25;
+  height: 0;
+  display: grid;
+}
 
 /* CONTACT PAGE*/
 .contact-form {
