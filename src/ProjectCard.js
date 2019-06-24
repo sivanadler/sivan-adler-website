@@ -12,6 +12,16 @@ class ProjectCard extends React.Component {
     }
   }
 
+  getAccomplishments = () => {
+    if (this.props.accomplishments !== []) {
+      return this.props.accomplishments.map(el => {
+        return (
+          <li>{el}</li>
+        )
+      })
+    }
+  }
+
   render() {
     return (
       <div className='project-card'>
@@ -19,9 +29,19 @@ class ProjectCard extends React.Component {
           <h1 className='project-card-header'>{this.props.name}</h1>
         </a>
         <p>{this.props.description}</p>
+
+        <br />
+
         <p>TECHNOLOGIES:</p>
         <ul>
           {this.getFrontEndTechnologies()}
+        </ul>
+
+        <br />
+
+        <p>FUNCTIONALITY HIGHLIGHTS:</p>
+        <ul>
+          {this.getAccomplishments()}
         </ul>
       </div>
     )
