@@ -57,6 +57,7 @@ body {
 .about-me-image {
   float: right;
   display: inline;
+  margin-top: 2%;
   margin-right: 8%;
   width: 30%;
   border-radius: 5px;
@@ -68,6 +69,7 @@ body {
   width: 49%;
   margin-left: 8%;
   margin-right: 2%;
+  margin-bottom: 5%;
   font-size: 35px;
   background-color: white;
   padding: 30px;
@@ -78,7 +80,38 @@ body {
 .portfolio-links{
   padding: 10px;
   text-decoration: none;
+}
 
+.icons {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+#wrapper {
+  padding: 20px;
+  display: inline-block;
+}
+
+.icon:hover {
+  height: 120px;
+}
+
+#wrapper .text {
+position:relative;
+left:0px;
+visibility:visible;
+font-size: 25px;
+text-align: center;
+padding-top: 10px;
+}
+
+.rounded {
+  border-radius: .5em;
 }
 
 /* PROJECTS PAGE*/
@@ -93,7 +126,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  height: 100%;
   border-radius: 1em;
 }
 
