@@ -2,7 +2,7 @@ import React from "react";
 
 class ProjectCard extends React.Component {
 
-  getFrontEndTechnologies = () => {
+  getTechnologies = () => {
     if (this.props.technologies !== []) {
       return this.props.technologies.map(el => {
         return (
@@ -25,33 +25,46 @@ class ProjectCard extends React.Component {
   render() {
     return (
       <div className='project-card'>
-      <div className='text-div'>
-          <a className='project-card-header' href={this.props.link}>
-            <h1 className='project-card-header'>{this.props.name}</h1>
-          </a>
+          <h1 className='project-card-header'>
+            <a href={this.props.link}>{this.props.name}</a>
+          </h1>
+
+          <h1 className='project-card-links'>
+            <a href={this.props.frontend}>FRONTEND GITHUB</a>
+            <span className='seperator'>|</span>
+            <a href={this.props.backend}>BACKEND GITHUB</a>
+            <span className='seperator'>|</span>
+            <a href={this.props.demo}>DEMO</a>
+          </h1>
           <p className="description">{this.props.description}</p>
 
-          <br />
+          <table>
+            <tr>
+              <td className='project-card-sub-header'>
+                TECHNOLOGIES:
+              </td>
+              <td>
+              </td>
+              <td className='project-card-sub-header'>
+                FUNCTIONALITY HIGHLIGHTS:
+              </td>
+            </tr>
 
-          <p className='project-card-sub-header'>TECHNOLOGIES:</p>
-          <ul>
-            {this.getFrontEndTechnologies()}
-          </ul>
-
-          <br />
-
-          <p className='project-card-sub-header'>FUNCTIONALITY HIGHLIGHTS:</p>
-          <ul>
-            {this.getAccomplishments()}
-          </ul>
-        </div>
-        <div className="video" >
-          <iframe
-            className="i-frame"
-            src={`https://www.youtube.com/embed/${this.props.demo}`}
-            frameBorder="0"
-          />
-        </div>
+            <tr>
+              <td valign="top" id="technologies-list">
+                <ul>
+                  {this.getTechnologies()}
+                </ul>
+              </td>
+              <td className="empty-column">
+              </td>
+              <td valign="top" id="functionality-list">
+                <ul>
+                  {this.getAccomplishments()}
+                </ul>
+              </td>
+            </tr>
+          </table>
       </div>
     )
   }
