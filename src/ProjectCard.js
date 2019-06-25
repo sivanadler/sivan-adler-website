@@ -47,13 +47,7 @@ class ProjectCard extends React.Component {
         </div>
         <div className="video" >
           <iframe
-            style={{
-              position: "absolute",
-              top: 0,
-              left: 0,
-              width: "100%",
-              height: "90%"
-            }}
+            className="i-frame"
             src={`https://www.youtube.com/embed/${this.props.demo}`}
             frameBorder="0"
           />

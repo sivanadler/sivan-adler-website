@@ -115,16 +115,24 @@ body {
 }
 
 .text-div {
-  width: 40%;
-  display: grid;
+  width: 45%;
+  float: left;
 }
 
 .video {
   position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25;
-  height: 0;
+  margin-top: 10%;
+  padding-bottom: 15%;
+  padding-top: 20%;
   display: grid;
+}
+
+.i-frame {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 85%;
+    height: 75%;
 }
 
 /* CONTACT PAGE*/
