@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
 import { Redirect } from 'react-router'
+import sivan from './images/sivan-adler.jpg'
 
 class Nav extends React.Component {
 
@@ -24,6 +25,9 @@ class Nav extends React.Component {
     return (
       <div className="nav">
         <Router>
+          <div>
+          <img className="about-me-image" src={sivan} alt="photo of sivan adler" />
+          </div>
           <NavLink to="/" exact className="main-nav-link" onClick={this.handleGoHome}><p className="main-nav-link-text"><strong>HOME</strong></p></NavLink>
           <NavLink to="/about" exact className="main-nav-link"><p className="main-nav-link-text" onClick={this.handleAboutMe}><strong>ABOUT ME</strong></p></NavLink>
           <NavLink to="/projects" exact className="main-nav-link"><p className="main-nav-link-text" onClick={this.handleProjects}><strong>PROJECTS</strong></p></NavLink>

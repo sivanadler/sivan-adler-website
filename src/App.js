@@ -12,12 +12,16 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <div className="left">
         <Nav history={this.props.history}/>
+        </div>
+        <div className="right">
           <Route exact path="/home" render={routerProps => <Home {...routerProps}/>}/>
           <Route exact path="/about" render={routerProps => <About {...routerProps}/>}/>
           <Route exact path="/projects" render={routerProps => <Project {...routerProps}/>}/>
           <Route exact path="/contact" render={routerProps => <Contact {...routerProps}/>}/>
-        <Home />
+          <Home />
+        </div>
       </div>
     );
   }
