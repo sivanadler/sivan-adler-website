@@ -61,14 +61,35 @@ body {
 
 /* HOME PAGE */
 .home-page-div{
+  width: 65%;
+  height: 50%;
   border: 2px solid #5e5b55;
-  margin-top: 12%;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-top: 16%;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5%;
   background-color: white;
   border-radius: 1em;
+}
 
+.socials {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.social-icons {
+  margin-left: 2%;
+  margin-right: 2%;
+  height: 80px;
+}
+
+.interests {
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 2%;
+  font-size: 30px;
+  color: #5e5b55;
 }
 
 /* HEADER STYLING*/
@@ -76,22 +97,26 @@ body {
   text-align: center;
   font-size: 100px;
   color: #5e5b55;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .sub-header {
   text-align: center;
   font-size: 50px;
   color: #5e5b55;
+  text-transform: uppercase;
 }
 
 /* ABOUT ME PAGE*/
 .about-me-description {
+  text-align: justify;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
-  margin-bottom: 3%;
-  font-size: 35px;
+  margin-bottom: 2%;
+  font-size: 33px;
   background-color: white;
   padding: 30px;
   color: #5e5b55;
@@ -113,14 +138,16 @@ body {
   width: 100px;
   display: inline-block;
   color: blue;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
+  text-align: center;
 }
 
 #wrapper {
   padding: 2%;
   display: inline-block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 8%;
 }
 
 #wrapper .text {
@@ -132,6 +159,13 @@ body {
   padding-top: 10px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+}
+
+#skills-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: c
+
 }
 
 .rounded {
