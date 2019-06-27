@@ -12,7 +12,10 @@ class Project extends React.Component {
           <Nav history={this.props.history}/>
         </div>
         <div className="right">
-          <h1 className="header">PROJECTS</h1>
+          <div className='project-header'>
+            <h1 className="header">PROJECTS</h1>
+            <p className="interests"> CHECK OUT MY WORK SOME OF MY LATEST WORK </p>
+          </div>
 
           <ProjectCard
             name={'Cycle Source'}

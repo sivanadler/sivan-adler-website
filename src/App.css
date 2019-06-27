@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 body {
-  background-image: url('./images/background.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: rgb(228,233,240);
+  background: linear-gradient(90deg, rgba(228,233,240,1) 0%, rgba(228,233,240,1) 0%, rgba(230,242,251,1) 20%, rgba(161,193,238,1) 65%);
+  font-family: "Montserrat", sans-serif;
 }
 
 /* NAV BAR */
 .nav {
-  background-color: #5e5b55;
+  background-color: #77787B;
   width: 100%;
-  overflow: hidden;
+  overflow: scroll;
   height: 100%;
   font-family: "Montserrat", sans-serif;
+
 }
 
 .left {
@@ -20,6 +21,9 @@ body {
   width: 20%;
   overflow: hidden;
   height: 100%;
+  -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
 }
 
 .right {
@@ -48,22 +52,56 @@ body {
   color: #5e5b55;
 }
 
-.about-me-image {
+.active {
   display: block;
-  margin-top: 10%;
-  margin-bottom: 10%;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  border: 10px solid white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: none;
+  background-color: white;
+  color: #5e5b55;
+  width: 100%;
 }
 
+.logo {
+  display: block;
+  margin-top: 20%;
+  margin-bottom: 15%;
+  color: white;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border-radius: 15em;
+  margin-left: auto;
+  margin-right: auto;
+  border: 14px double white;
+}
+
+.socials-mini {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  padding: 10px;
+  margin-top: 8%;
+  border-top: 2px solid #2a4570;
+}
+
+.social-mini-icons {
+  margin-top: 8%;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-bottom: 40px;
+  height: 70px;
+}
 
 /* HOME PAGE */
 .home-page-div{
   width: 65%;
   height: 50%;
-  border: 2px solid #5e5b55;
   margin-top: 16%;
   margin-left: auto;
   margin-right: auto;
@@ -90,6 +128,7 @@ body {
   padding-bottom: 2%;
   font-size: 30px;
   color: #5e5b55;
+  margin-bottom: 0px;
 }
 
 /* HEADER STYLING*/
@@ -187,7 +226,22 @@ body {
   height: 100%;
   box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
   font-family: "Montserrat", sans-serif;
+}
 
+.project-header {
+  background-color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-top:5%;
+  margin-bottom:5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+  box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+  font-family: "Montserrat", sans-serif;
 }
 
 .project-card-header a {
