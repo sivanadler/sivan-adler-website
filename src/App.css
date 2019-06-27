@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 body {
   background-image: url('./images/background.jpg');
   background-repeat: no-repeat;
@@ -10,6 +12,7 @@ body {
   width: 100%;
   overflow: hidden;
   height: 100%;
+  font-family: "Montserrat", sans-serif;
 }
 
 .left {
@@ -93,7 +96,7 @@ body {
   padding: 30px;
   color: #5e5b55;
   box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
-
+  font-family: "Montserrat", sans-serif;
 }
 
 .about-text {
@@ -121,12 +124,14 @@ body {
 }
 
 #wrapper .text {
-position:relative;
-left:0px;
-visibility:visible;
-font-size: 25px;
-text-align: center;
-padding-top: 10px;
+  position:relative;
+  left:0px;
+  visibility:visible;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
 .rounded {
@@ -147,12 +152,14 @@ padding-top: 10px;
   width: 80%;
   height: 100%;
   box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+  font-family: "Montserrat", sans-serif;
+
 }
 
 .project-card-header a {
   font-size: 80px;
   color: #2a4570;
-  font-weight: bold;
+  font-weight: bolder;
   text-decoration: none;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -252,7 +259,7 @@ li.description {
   height: 1000px;
   text-align: center;
   box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
-
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-form input {
