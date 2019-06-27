@@ -18,7 +18,7 @@ class Project extends React.Component {
             name={'Cycle Source'}
             link={'not yet'}
             description={'The best web application to find, book and manage cycling classes near you. Users can search for studios in their area, follow studios and instructors and book spin classes all in one place.'}
-            technologies={['React', 'Javascript', 'Redux', 'Ruby on Rails', 'Custom CSS', 'Google Maps API', 'AWS S3 Image Hosting', 'Twilio', 'React Big Calendar', 'Google Maps React']}
+            technologies={['React', 'Javascript', 'Redux', 'Ruby on Rails', 'Custom CSS', 'Google Maps API', 'AWS S3 Image Hosting', 'Twilio']}
             accomplishments={['Implemented dynamic Google Maps and Calendar components', 'Used Amazon Web Services (AWS) to host uploaded images', 'Configured text message alerts upon booking a cycling class using Twilio']}
             frontend={'https://github.com/sivanadler/cycle-source-frontend'}
             backend={'https://github.com/sivanadler/cycle-source-backend'}
