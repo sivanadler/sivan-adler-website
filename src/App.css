@@ -84,18 +84,22 @@ body {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
   padding: 10px;
-  margin-top: 8%;
-  border-top: 2px solid #2a4570;
+}
+.social-mini-icons {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px;
+  color: #2a4570;
 }
 
-.social-mini-icons {
-  margin-top: 8%;
-  margin-left: 3%;
-  margin-right: 3%;
-  padding-bottom: 40px;
-  height: 70px;
+.social-mini-icons:hover {
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  color: black;
 }
 
 /* HOME PAGE */
@@ -107,10 +111,10 @@ body {
   margin-right: auto;
   padding: 5%;
   background-color: white;
-  border-radius: 1em;
 }
 
 .socials {
+  margin-top: 2%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -119,7 +123,14 @@ body {
 .social-icons {
   margin-left: 2%;
   margin-right: 2%;
+  color: #2a4570;
+}
+
+.social-icons:hover {
+  margin-left: 2%;
+  margin-right: 2%;
   height: 80px;
+  color: black;
 }
 
 .interests {

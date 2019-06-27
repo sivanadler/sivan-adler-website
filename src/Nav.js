@@ -6,7 +6,7 @@ import linkedin from './icons/linkedin.png'
 import wordpress from './icons/wordpress.png'
 import github from './icons/github.png'
 import logo from './images/my-logo.png'
-
+import { SocialIcon } from 'react-social-icons';
 
 class Nav extends React.Component {
 
@@ -48,9 +48,37 @@ class Nav extends React.Component {
           <br/>
         </Router>
         <div className="socials-mini">
-          <a href="https://www.linkedin.com/in/sivanadler"><img className="social-mini-icons" src={linkedin} /></a>
-          <a href="https://github.com/sivanadler"><img className="social-mini-icons" src={github} /></a>
-          <a href="https://sivanadler.wordpress.com/"><img className="social-mini-icons" src={wordpress} /></a>
+          <SocialIcon
+            url="http://linkedin.com/in/sivanadler"
+            bgColor="currentColor"
+            fgColor="white"
+            className="social-mini-icons"
+            style={{ height: 40, width: 40 }}
+          />
+          <SocialIcon
+            url="http://github.com/sivanadler"
+            bgColor="currentColor"
+            fgColor="white"
+            className="social-mini-icons"
+            style={{ height: 40, width: 40 }}
+          />
+          <SocialIcon
+            url="https://sivanadler.wordpress.com/"
+            network="medium"
+            bgColor="currentColor"
+            fgColor="white"
+            className="social-mini-icons"
+            style={{ height: 40, width: 40 }}
+          />
+          <SocialIcon
+            url="https://sivanadler.wixsite.com/sivanportfolio"
+            bgColor="currentColor"
+            fgColor="white"
+            className="social-mini-icons"
+            onMouseOver="#e6f2fb"
+            style={{ height: 40, width: 40 }}
+          />
+
         </div>
       </div>
     )
