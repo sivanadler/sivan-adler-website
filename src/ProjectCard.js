@@ -1,4 +1,6 @@
 import React from "react";
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
 
 class ProjectCard extends React.Component {
 
@@ -22,6 +24,12 @@ class ProjectCard extends React.Component {
     }
   }
 
+  getImageGalleryPhotos = () => {
+    return this.props.screenShots.map(photo => {
+      return <div data-src={photo} />
+    })
+  }
+
   render() {
     return (
       <div className='project-card'>
@@ -38,33 +46,23 @@ class ProjectCard extends React.Component {
           </h1>
           <p className="description">{this.props.description}</p>
 
-          <table>
-            <tr>
-              <td className='project-card-sub-header'>
+          <div className="table">
+              <h1 className='project-card-sub-header'>
                 TECHNOLOGIES:
-              </td>
-              <td>
-              </td>
-              <td className='project-card-sub-header'>
-                FUNCTIONALITY HIGHLIGHTS:
-              </td>
-            </tr>
-
-            <tr>
-              <td valign="top" id="technologies-list">
-                <ul>
-                  {this.getTechnologies()}
-                </ul>
-              </td>
-              <td className="empty-column">
-              </td>
-              <td valign="top" id="functionality-list">
-                <ul>
-                  {this.getAccomplishments()}
-                </ul>
-              </td>
-            </tr>
-          </table>
+              </h1>
+                <p className="description">{this.props.technologies}</p>
+            <h1 className='project-card-sub-header'>
+              FUNCTIONALITY HIGHLIGHTS:
+            </h1>
+            <ul id="functionality-list">
+              {this.getAccomplishments()}
+            </ul>
+          </div>
+          <div className="image-gallery">
+            <AwesomeSlider>
+              {this.getImageGalleryPhotos()}
+            </AwesomeSlider>
+          </div>
       </div>
     )
   }

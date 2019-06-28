@@ -98,7 +98,7 @@ body {
   padding: 20px;
   text-align: center;
   text-decoration: none;
-  margin: 10px;
+  margin: 15px;
   color: black;
 }
 
@@ -111,6 +111,9 @@ body {
   margin-right: auto;
   padding: 5%;
   background-color: white;
+  -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
 }
 
 .socials {
@@ -312,14 +315,12 @@ body {
   padding-right: 4%;
 }
 
-table {
-  margin-left: auto;
-  margin-right: auto;
+.table {
+  width: 45%;
+  position: relative;
+  display: inline-block;
 }
 
-.empty-column {
-  width: 10%;
-}
 
 li {
    padding-top: 10px;
@@ -344,6 +345,15 @@ p.description {
 li.description {
   font-size: 30px;
   width: 100%;
+}
+
+.image-gallery {
+  float: right;
+  position: relative;
+  width: 50%;
+  display: inline-block;
+  padding: 1%;
+  padding-bottom: 2%;
 }
 
 /* CONTACT PAGE*/
@@ -371,6 +381,8 @@ li.description {
   border: 1px solid grey;
   border-radius: 5px;
   padding: 10px;
+  font-family: "Montserrat", sans-serif;
+
 }
 
 .contact-form textarea {
@@ -383,13 +395,15 @@ li.description {
   border: 1px solid grey;
   border-radius: 5px;
   padding: 10px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .contact-form a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 30px;
-  background-color: #5e5b55;
+  font-weight: bolder;
+  background-color: #2a4570;
   color: white;
   padding: 1%;
   border-radius: 5px;
@@ -400,8 +414,9 @@ li.description {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 30px;
-  background-color: white;;
-  color: #5e5b55;
+  font-weight: bolder;
+  background-color: black;
+  color: white;
   padding: 1%;
   border-radius: 5px;
   border: 1px solid #5e5b55;
