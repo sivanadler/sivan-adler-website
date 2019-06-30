@@ -86,6 +86,7 @@ body {
   margin-right: auto;
   padding: 10px;
 }
+
 .social-mini-icons {
   padding: 20px;
   text-align: center;
@@ -256,6 +257,15 @@ body {
   height: 100%;
   box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
   font-family: "Montserrat", sans-serif;
+}
+
+.project-card-header {
+  font-size: 80px;
+  color: #2a4570;
+  font-weight: bolder;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .project-card-header a {

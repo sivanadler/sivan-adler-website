@@ -34,7 +34,7 @@ class ProjectCard extends React.Component {
     return (
       <div className='project-card'>
           <h1 className='project-card-header'>
-            <a href={this.props.link}>{this.props.name}</a>
+            {this.props.link !== '' ? <a href={this.props.link}>{this.props.name}</a> : this.props.name}
           </h1>
 
           <h1 className='project-card-links'>
@@ -59,7 +59,7 @@ class ProjectCard extends React.Component {
             </ul>
           </div>
           <div className="image-gallery">
-            <AwesomeSlider>
+            <AwesomeSlider className="slider">
               {this.getImageGalleryPhotos()}
             </AwesomeSlider>
           </div>
