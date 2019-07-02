@@ -26,6 +26,14 @@ class Nav extends React.Component {
     this.props.history.push('/contact')
   }
 
+  handleEducation = () => {
+    this.props.history.push('/education')
+  }
+
+  handleExperience = () => {
+    this.props.history.push('/experience')
+  }
+
   getclassName = (pathname) => {
     if(this.props.history.location.pathname === pathname){
       return 'active'
@@ -40,47 +48,47 @@ class Nav extends React.Component {
         <Router>
           <div>
           <img className="logo" src={sivan} alt="photo of sivan adler" />
-          <div className="socials-mini">
-            <SocialIcon
-              url="http://linkedin.com/in/sivanadler"
-              bgColor="currentColor"
-              fgColor="white"
-              className="social-mini-icons"
-              style={{ height: 40, width: 40 }}
-            />
-            <SocialIcon
-              url="http://github.com/sivanadler"
-              bgColor="currentColor"
-              fgColor="white"
-              className="social-mini-icons"
-              style={{ height: 40, width: 40 }}
-            />
-            <SocialIcon
-              url="https://sivanadler.wordpress.com/"
-              network="medium"
-              bgColor="currentColor"
-              fgColor="white"
-              className="social-mini-icons"
-              style={{ height: 40, width: 40 }}
-            />
-            <SocialIcon
-              url="https://sivanadler.wixsite.com/sivanportfolio"
-              bgColor="currentColor"
-              fgColor="white"
-              className="social-mini-icons"
-              onMouseOver="#e6f2fb"
-              style={{ height: 40, width: 40 }}
-            />
-
-          </div>
           </div>
           <NavLink to="/" exact className={this.getclassName("/")} onClick={this.handleGoHome}><p className="main-nav-link-text"><strong>HOME</strong></p></NavLink>
           <NavLink to="/about" exact className="main-nav-link"><p className="main-nav-link-text" onClick={this.handleAboutMe}><strong>ABOUT ME</strong></p></NavLink>
           <NavLink to="/projects" exact className="main-nav-link"><p className="main-nav-link-text" onClick={this.handleProjects}><strong>PROJECTS</strong></p></NavLink>
+          <NavLink to="/education" exact className="main-nav-link"><p className="main-nav-link-text" onClick={this.handleEducation}><strong>EDUCATION</strong></p></NavLink>
+          <NavLink to="/experience" exact className="main-nav-link"><p className="main-nav-link-text" onClick={this.handleExperience}><strong>EXPERIENCE</strong></p></NavLink>
           <NavLink to="/contact" exact className="main-nav-link"><p className="main-nav-link-text" onClick={this.handleContact}><strong>CONTACT</strong></p></NavLink>
           <br/>
         </Router>
-
+        <div className="socials-mini">
+          <SocialIcon
+            url="http://linkedin.com/in/sivanadler"
+            bgColor="currentColor"
+            fgColor="white"
+            className="social-mini-icons"
+            style={{ height: 20, width: 20 }}
+          />
+          <SocialIcon
+            url="http://github.com/sivanadler"
+            bgColor="currentColor"
+            fgColor="white"
+            className="social-mini-icons"
+            style={{ height: 20, width: 20 }}
+          />
+          <SocialIcon
+            url="https://sivanadler.wordpress.com/"
+            network="medium"
+            bgColor="currentColor"
+            fgColor="white"
+            className="social-mini-icons"
+            style={{ height: 20, width: 20 }}
+          />
+          <SocialIcon
+            url="https://sivanadler.wixsite.com/sivanportfolio"
+            bgColor="currentColor"
+            fgColor="white"
+            className="social-mini-icons"
+            onMouseOver="#e6f2fb"
+            style={{ height: 20, width: 20 }}
+          />
+        </div>
       </div>
     )
   }

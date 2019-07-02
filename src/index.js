@@ -5,6 +5,8 @@ import App from './App';
 import About from './About';
 import Project from './Project';
 import Contact from './Contact';
+import Education from './Education';
+import Experience from './Experience';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
 
@@ -12,6 +14,9 @@ ReactDOM.render(
   <Router>
     <Route exact path="/" component={App} />
     <Route exact path="/about" component={About} />
+    <Route exact path="/education" component={Education} />
+    <Route exact path="/experience" component={Experience} />
+    <Route exact path="/contact" component={Contact} />
     <Route exact path="/projects" component={Project} />
     <Route exact path="/contact" component={Contact} />
 
