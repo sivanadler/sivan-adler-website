@@ -3,6 +3,13 @@ import ProjectCard from './ProjectCard'
 import Nav from './Nav'
 import cycleSource1 from './images/cycle-source-1.png'
 import cycleSource2 from './images/cycle-source-2.png'
+import softipy1 from './images/softipy-1.png'
+import softipy2 from './images/softipy-2.png'
+import softipy3 from './images/softipy-3.png'
+import superscript1 from './images/superscript1.png'
+import superscript2 from './images/superscript2.png'
+import superscript3 from './images/superscript3.png'
+import superscript4 from './images/superscript4.png'
 
 class Project extends React.Component {
 
@@ -39,7 +46,7 @@ class Project extends React.Component {
             frontend={'https://github.com/MCSimoes18/superscript_front-end'}
             backend={'https://github.com/MCSimoes18/superscript_back-end'}
             demo={'https://www.youtube.com/watch?v=cw5I2tYbEa0&t=29s'}
-            screenShots={[cycleSource1, cycleSource2]}
+            screenShots={[superscript1, superscript2, superscript3, superscript4]}
           />
           <ProjectCard
             name={'Softipy'}
@@ -50,7 +57,7 @@ class Project extends React.Component {
             frontend={'https://github.com/elicleveland12/softipy-front-end'}
             backend={'https://github.com/sivanadler/Softipy-Back-End'}
             demo={'https://www.youtube.com/watch?v=ktvqV3r1Rus&t=10s'}
-            screenShots={[cycleSource1, cycleSource2]}
+            screenShots={[softipy1, softipy2, softipy3]}
           />
         </div>
       </div>

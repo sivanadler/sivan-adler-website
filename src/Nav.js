@@ -71,6 +71,7 @@ class Nav extends React.Component {
               onMouseOver="#e6f2fb"
               style={{ height: 40, width: 40 }}
             />
+
           </div>
           </div>
           <NavLink to="/" exact className={this.getclassName("/")} onClick={this.handleGoHome}><p className="main-nav-link-text"><strong>HOME</strong></p></NavLink>
