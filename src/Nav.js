@@ -40,6 +40,38 @@ class Nav extends React.Component {
         <Router>
           <div>
           <img className="logo" src={sivan} alt="photo of sivan adler" />
+          <div className="socials-mini">
+            <SocialIcon
+              url="http://linkedin.com/in/sivanadler"
+              bgColor="currentColor"
+              fgColor="white"
+              className="social-mini-icons"
+              style={{ height: 40, width: 40 }}
+            />
+            <SocialIcon
+              url="http://github.com/sivanadler"
+              bgColor="currentColor"
+              fgColor="white"
+              className="social-mini-icons"
+              style={{ height: 40, width: 40 }}
+            />
+            <SocialIcon
+              url="https://sivanadler.wordpress.com/"
+              network="medium"
+              bgColor="currentColor"
+              fgColor="white"
+              className="social-mini-icons"
+              style={{ height: 40, width: 40 }}
+            />
+            <SocialIcon
+              url="https://sivanadler.wixsite.com/sivanportfolio"
+              bgColor="currentColor"
+              fgColor="white"
+              className="social-mini-icons"
+              onMouseOver="#e6f2fb"
+              style={{ height: 40, width: 40 }}
+            />
+          </div>
           </div>
           <NavLink to="/" exact className={this.getclassName("/")} onClick={this.handleGoHome}><p className="main-nav-link-text"><strong>HOME</strong></p></NavLink>
           <NavLink to="/about" exact className="main-nav-link"><p className="main-nav-link-text" onClick={this.handleAboutMe}><strong>ABOUT ME</strong></p></NavLink>
@@ -47,39 +79,7 @@ class Nav extends React.Component {
           <NavLink to="/contact" exact className="main-nav-link"><p className="main-nav-link-text" onClick={this.handleContact}><strong>CONTACT</strong></p></NavLink>
           <br/>
         </Router>
-        <div className="socials-mini">
-          <SocialIcon
-            url="http://linkedin.com/in/sivanadler"
-            bgColor="currentColor"
-            fgColor="white"
-            className="social-mini-icons"
-            style={{ height: 40, width: 40 }}
-          />
-          <SocialIcon
-            url="http://github.com/sivanadler"
-            bgColor="currentColor"
-            fgColor="white"
-            className="social-mini-icons"
-            style={{ height: 40, width: 40 }}
-          />
-          <SocialIcon
-            url="https://sivanadler.wordpress.com/"
-            network="medium"
-            bgColor="currentColor"
-            fgColor="white"
-            className="social-mini-icons"
-            style={{ height: 40, width: 40 }}
-          />
-          <SocialIcon
-            url="https://sivanadler.wixsite.com/sivanportfolio"
-            bgColor="currentColor"
-            fgColor="white"
-            className="social-mini-icons"
-            onMouseOver="#e6f2fb"
-            style={{ height: 40, width: 40 }}
-          />
 
-        </div>
       </div>
     )
   }
