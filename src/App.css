@@ -7,7 +7,6 @@ body {
 }
 
 /* NAV BAR */
-
 #menuToggle
   {
     display: block;
@@ -116,7 +115,7 @@ body {
   width: 100%;
   overflow: scroll;
   height: 100%;
-  margin-bottom: 5%;
+  margin: 0px;
 }
 
 .main-nav-link{
@@ -167,12 +166,11 @@ body {
 
 /* HOME PAGE */
 .home-page-div{
-  width: 55%;
-  height: 50%;
-  margin-top: 10%;
+  width: 50%;
+  margin-top: 8%;
   margin-left: auto;
   margin-right: auto;
-  vertical-align: middle;
+  margin-bottom: 8%;
   padding: 5%;
   background-color: white;
   -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
@@ -204,7 +202,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 2%;
-  font-size: 30px;
+  font-size: 20px;
   color: #5e5b55;
   margin-bottom: 0px;
 }
@@ -212,16 +210,18 @@ body {
 /* HEADER STYLING*/
 .header {
   text-align: center;
-  font-size: 100px;
-  color: #5e5b55;
+  font-size: 70px;
+  color: #2a4570;
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
 .sub-header {
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
   color: #5e5b55;
+  padding: 0px;
+  margin: 0px;
   text-transform: uppercase;
 }
 
@@ -420,9 +420,10 @@ body {
 }
 
 .seperator {
-  padding: 10px;
-  font-size: 50px;
+  padding: 5px;
+  font-size: 35px;
   font-weight: lighter;
+  color: #5e5b55;
 }
 
 .project-card-sub-header {
@@ -635,7 +636,7 @@ button.aws-sld__controls  {
 
   .about-me-description {
     padding-bottom: 5%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
   }
 
   .icons {
@@ -720,10 +721,6 @@ button.aws-sld__controls  {
 }
 
 @media only screen and (max-width: 1500px) {
-  .header {
-    font-size: 90px;
-  }
-
   .main-nav-link {
     font-size: 25px;
   }
@@ -741,17 +738,14 @@ button.aws-sld__controls  {
   }
 
   .interests {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .home-page-div {
-    margin-top: 27%;
-    padding: 10%;
+    /* margin-top: 27%; */
+    /* padding: 10%; */
   }
 
-  .sub-header{
-    font-size: 40px;
-  }
 }
 
 @media only screen and (max-width: 600px) {
