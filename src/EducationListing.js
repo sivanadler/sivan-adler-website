@@ -10,7 +10,7 @@ class EducationListing extends React.Component {
         </div>
         <h1 className='education-header'>{this.props.name}</h1>
         <h4 className='education-subheader'>{this.props.degree} <span className='seperator'>|</span> {this.props.location}</h4>
-        <p>{this.props.description}</p>
+        <p className='education-text'>{this.props.description}</p>
 
       </div>
     )

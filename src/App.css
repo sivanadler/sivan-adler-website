@@ -298,7 +298,7 @@ h2.about-text {
 
 .education-header {
   margin: 0px;
-  font-size: 50px;
+  font-size: 40px;
   color: #2a4570;
   font-weight: bolder;
   text-decoration: none;
@@ -310,7 +310,7 @@ h2.about-text {
 .education-subheader {
   margin: 0px;
   text-align: left;
-  font-size: 35px;
+  font-size: 25px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -320,21 +320,32 @@ h2.about-text {
   text-align: right;
   display: inline;
   width: 25%;
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 0px;
   margin-right: 1%;
+}
+
+p.education-text {
+  text-align: left;
+  font-size: 18px;
 }
 
 /* EXPERIENCE PAGE */
 .education-header a {
   color: #2a4570;
   text-decoration: none;
+  font-size: 40px;
 }
 
 .education-header a:hover {
+  font-size: 40px;
   color: #5c94ed;
   margin: 0px;
   text-decoration: underline;
+}
+
+.bullet {
+  padding-right: 10px;
 }
 
 /* PROJECTS PAGE*/
@@ -344,7 +355,7 @@ h2.about-text {
   padding-right: 5%;
   padding-top: 1%;
   padding-bottom: 5%;
-  margin-top:5%;
+  margin-top:4%;
   margin-bottom:5%;
   margin-left: auto;
   margin-right: auto;
@@ -362,8 +373,8 @@ h2.about-text {
   padding-right: 5%;
   padding-top: 1%;
   padding-bottom: 1%;
-  margin-top:5%;
-  margin-bottom:5%;
+  margin-top: 6%;
+  /* margin-bottom: 2%; */
   margin-left: auto;
   margin-right: auto;
   width: 70%;
@@ -497,8 +508,8 @@ button.aws-sld__controls  {
 .contact-form {
   background-color: white;
   margin-left: auto;
-  margin-top: 5%;
-  margin-bottom: 2%;
+  margin-top: 6%;
+  margin-bottom: 5%;
   margin-right: auto;
   padding-top: 2%;
   padding-bottom: 3%;
@@ -510,7 +521,7 @@ button.aws-sld__controls  {
 
 .contact-form input {
   width: 80%;
-  font-size: 40px;
+  font-size: 18px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -524,7 +535,7 @@ button.aws-sld__controls  {
 
 .contact-form textarea {
   width: 80%;
-  font-size: 40px;
+  font-size: 18px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -538,7 +549,7 @@ button.aws-sld__controls  {
 .contact-form a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
   background-color: #2a4570;
   color: white;
@@ -550,7 +561,7 @@ button.aws-sld__controls  {
 .contact-form a:hover {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
   background-color: black;
   color: white;
@@ -560,7 +571,7 @@ button.aws-sld__controls  {
 }
 
 .contact-sub-header {
-  font-size: 50px;
+  font-size: 30px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
