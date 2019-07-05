@@ -6,7 +6,6 @@ import linkedin from './icons/linkedin.png'
 import wordpress from './icons/wordpress.png'
 import github from './icons/github.png'
 import logo from './images/my-logo.png'
-import { SocialIcon } from 'react-social-icons';
 
 class Nav extends React.Component {
 
