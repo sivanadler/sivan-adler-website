@@ -1,6 +1,6 @@
 import React from "react";
 import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
+import AwsSliderStyles from 'react-awesome-slider/dist/styles.css';
 
 class ProjectCard extends React.Component {
 
@@ -26,7 +26,7 @@ class ProjectCard extends React.Component {
 
   getImageGalleryPhotos = () => {
     return this.props.screenShots.map(photo => {
-      return <div data-src={photo} />
+      return <div className="image" data-src={photo} />
     })
   }
 
@@ -59,7 +59,7 @@ class ProjectCard extends React.Component {
             </ul>
           </div>
           <div className="image-gallery">
-            <AwesomeSlider className="slider">
+            <AwesomeSlider className="slider" cssModule={AwsSliderStyles}>
               {this.getImageGalleryPhotos()}
             </AwesomeSlider>
           </div>

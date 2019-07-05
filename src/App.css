@@ -343,7 +343,7 @@ body {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 1%;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   margin-top:5%;
   margin-bottom:5%;
   margin-left: auto;
@@ -479,9 +479,21 @@ li.description {
   position: relative;
   width: 50%;
   display: inline-block;
-  padding: 1%;
-  padding-bottom: 5%;
+  margin-top: 1%;
+  margin-right: 3%;
+  box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+  background-color: none;
 }
+
+button.aws-sld__controls  {
+  background-color: white;
+}
+
+.slider {
+  padding: 20px;
+  background-color: rgba(0,0,0,0.7);
+}
+
 
 /* CONTACT PAGE*/
 
@@ -566,9 +578,6 @@ li.description {
 
 /* media query for responsive design*/
 @media only screen and (max-width: 2000px) {
-  .header {
-    color: pink;
-  }
 
   .icons {
     height: 70px;
@@ -623,9 +632,6 @@ li.description {
 
 
 @media only screen and (max-width: 1700px) {
-  .header {
-    color: yellow;
-  }
 
   .about-me-description {
     padding-bottom: 5%;
@@ -683,6 +689,8 @@ li.description {
     display: block;
     width: 100%;
     float: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .project-card-sub-header {
@@ -713,7 +721,6 @@ li.description {
 
 @media only screen and (max-width: 1500px) {
   .header {
-    color: blue;
     font-size: 90px;
   }
 
@@ -748,9 +755,6 @@ li.description {
 }
 
 @media only screen and (max-width: 600px) {
-  .header {
-    color: orange;
-  }
 
   .main-nav-link {
     font-size: 20px;

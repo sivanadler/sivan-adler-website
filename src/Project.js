@@ -3,6 +3,11 @@ import ProjectCard from './ProjectCard'
 import Nav from './Nav'
 import cycleSource1 from './images/cycle-source-1.png'
 import cycleSource2 from './images/cycle-source-2.png'
+import cycleSource3 from './images/cycle-source-3.png'
+import cycleSource4 from './images/cycle-source-4.png'
+import cycleSource5 from './images/cycle-source-5.png'
+import cycleSource6 from './images/cycle-source-6.png'
+import cycleSource7 from './images/cycle-source-7.png'
 import softipy1 from './images/softipy-1.png'
 import softipy2 from './images/softipy-2.png'
 import softipy3 from './images/softipy-3.png'
@@ -35,7 +40,7 @@ class Project extends React.Component {
             frontend={'https://github.com/sivanadler/cycle-source-frontend'}
             backend={'https://github.com/sivanadler/cycle-source-backend'}
             demo={'https://www.youtube.com/watch?v=VolgRFBhA1A&t=2s'}
-            screenShots={[cycleSource1, cycleSource2]}
+            screenShots={[cycleSource1, cycleSource2, cycleSource6, cycleSource3, cycleSource4, cycleSource5, cycleSource7]}
           />
           <ProjectCard
             name={'SUPERscript'}
