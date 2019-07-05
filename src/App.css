@@ -325,6 +325,17 @@ body {
   margin-right: 1%;
 }
 
+/* EXPERIENCE PAGE */
+.education-header a {
+  color: #2a4570;
+  text-decoration: none;
+}
+
+.education-header a:hover {
+  color: #5c94ed;
+  margin: 0px;
+  text-decoration: underline;
+}
 
 /* PROJECTS PAGE*/
 .project-card {
