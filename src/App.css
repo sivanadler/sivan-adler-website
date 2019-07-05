@@ -81,7 +81,7 @@ body {
   {
     position: fixed;
     height: 100%;
-    overflow: hidden;
+    overflow: scroll;
     width: 20%;
     margin: -100px 0 0 -50px;
     padding: 50px;
