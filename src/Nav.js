@@ -57,30 +57,6 @@ class Nav extends React.Component {
           <NavLink to="/contact" exact className="main-nav-link"><p className="main-nav-link-text" onClick={this.handleContact}><strong>CONTACT</strong></p></NavLink>
           <br/>
         </Router>
-        <div className="socials-mini">
-          <SocialIcon
-            url="http://linkedin.com/in/sivanadler"
-            bgColor="currentColor"
-            fgColor="white"
-            className="social-mini-icons"
-            style={{ height: 20, width: 20 }}
-          />
-          <SocialIcon
-            url="http://github.com/sivanadler"
-            bgColor="currentColor"
-            fgColor="white"
-            className="social-mini-icons"
-            style={{ height: 20, width: 20 }}
-          />
-          <SocialIcon
-            url="https://sivanadler.wixsite.com/sivanportfolio"
-            bgColor="currentColor"
-            fgColor="white"
-            className="social-mini-icons"
-            onMouseOver="#e6f2fb"
-            style={{ height: 20, width: 20 }}
-          />
-        </div>
       </div>
     )
   }

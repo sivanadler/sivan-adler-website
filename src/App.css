@@ -80,31 +80,6 @@ body {
   border: 14px double white;
 }
 
-.socials-mini {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  margin-top: 1%;
-  margin-bottom: 5%;
-}
-
-.social-mini-icons {
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 15px;
-  color: #2a4570;
-}
-
-.social-mini-icons:hover {
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  margin: 15px;
-  color: black;
-}
-
 /* HOME PAGE */
 .home-page-div{
   width: 65%;
@@ -228,7 +203,7 @@ body {
 
 /* EDUCATION PAGE */
 .education-listing {
-  margin: 4%;
+  margin: 5%;
   border: 1px dotted black;
   padding: 2%;
   text-align: left;
@@ -279,6 +254,8 @@ body {
   height: 100%;
   box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
   font-family: "Montserrat", sans-serif;
+  text-align: left;
+
 }
 
 .project-header {
@@ -615,6 +592,7 @@ li.description {
   .table {
     display: block;
     width: 100%;
+    padding-left: 0px;
   }
 
   .image-gallery {
@@ -641,9 +619,47 @@ li.description {
 
   .contact-form {
     margin-top: 15%;
+    padding-bottom: 8%;
   }
 
   .contact-sub-header {
     font-size: 40px;
   }
+}
+
+@media only screen and (max-width: 1500px) {
+  .header {
+    color: blue;
+    font-size: 90px;
+  }
+
+  .main-nav-link {
+    font-size: 25px;
+  }
+
+  .active {
+    font-size: 25px;
+  }
+
+  .project-card {
+    padding-bottom: 5%;
+  }
+
+  .project-card-header {
+    font-size: 80px;
+  }
+
+  .interests {
+    font-size: 25px;
+  }
+
+  .home-page-div {
+    margin-top: 27%;
+    padding: 10%;
+  }
+
+  .sub-header{
+    font-size: 40px;
+  }
+
 }
