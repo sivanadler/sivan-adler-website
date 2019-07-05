@@ -7,100 +7,90 @@ body {
 }
 
 /* NAV BAR */
-#menuToggle
-  {
-    display: block;
-    position: relative;
-    top: 50px;
-    left: 50px;
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
-  }
+#menuToggle{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
 
-#menuToggle input
-  {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-    cursor: pointer;
-    opacity: 0;
-    z-index: 2;
-    -webkit-touch-callout: none;
-  }
+#menuToggle input{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+  -webkit-touch-callout: none;
+}
 
-#menuToggle span
-  {
-    display: block;
-    width: 40px;
-    height: 5px;
-    margin-bottom: 5px;
-    position: relative;
-    background: #77787B;
-    border-radius: 3px;
-    z-index: 1;
-    transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-                opacity 0.55s ease;
-  }
+#menuToggle span{
+  display: block;
+  width: 30px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #77787B;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
 
-#menuToggle span:first-child
-  {
-    transform-origin: 0% 0%;
-  }
+#menuToggle span:first-child{
+  transform-origin: 0% 0%;
+}
 
-#menuToggle span:nth-last-child(2)
-  {
-    transform-origin: 0% 100%;
-  }
+#menuToggle span:nth-last-child(2){
+  transform-origin: 0% 100%;
+}
 
-#menuToggle input:checked ~ span
-  {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
-  }
+#menuToggle input:checked ~ span{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: white;
+  display: block;
+}
 
-#menuToggle input:checked ~ span:nth-last-child(3)
-  {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-  }
+#menuToggle input:checked ~ span:nth-last-child(3){
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
 
-#menuToggle input:checked ~ span:nth-last-child(2)
-  {
-    transform: rotate(-45deg) translate(0, -1px);
-  }
+#menuToggle input:checked ~ span:nth-last-child(2){
+  transform: rotate(-45deg) translate(0, -1px);
+}
 
-#menu
-  {
-    position: fixed;
-    height: 100%;
-    overflow: scroll;
-    width: 20%;
-    margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
-    -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
-    -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
-    box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
-    background: #77787B;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
+#menu{
+  position: fixed;
+  height: 100%;
+  overflow: scroll;
+  width: 20%;
+  padding-top: 7%;
+  margin: -90px 0 0 -90px;
+  -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  background: #77787B;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
 
 
-#menuToggle input:checked ~ ul
-  {
-    transform: none;
-  }
+#menuToggle input:checked ~ ul{
+  transform: none;
+}
 
 .left {
   position: fixed;
@@ -122,10 +112,10 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   color: white;
   width: 100%;
@@ -140,34 +130,46 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: none;
   background-color: white;
   color: #5e5b55;
   width: 100%;
 }
 
-.logo {
+.logo-nav-link {
   display: block;
-  margin-top: 10%;
-  margin-bottom: 8%;
-  color: white;
-  width: 350px;
-  height: 350px;
-  text-align: center;
-  border-radius: 15em;
   margin-left: auto;
   margin-right: auto;
-  border: 14px double white;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  background-color: #77787B;
+  color: white;
+  width: 100%;
+}
+
+.logo {
+  display: block;
+  color: white;
+  width: 110px;
+  height: 110px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
+  border-radius: 0px;
+  background-color: #5e5b55;
 }
 
 /* HOME PAGE */
 .home-page-div{
   width: 50%;
-  margin-top: 8%;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 8%;
@@ -210,7 +212,7 @@ body {
 /* HEADER STYLING*/
 .header {
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
   color: #2a4570;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -232,7 +234,7 @@ body {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 4%;
+  margin-top: 6%;
   margin-bottom: 10%;
   font-size: 33px;
   background-color: white;
@@ -244,6 +246,15 @@ body {
 
 .about-text {
   margin: 2%;
+  text-align: justify;
+  font-size: 18px;
+}
+
+h2.about-text {
+  padding-top: 4%;
+  margin: 2%;
+  text-align: justify;
+  font-size: 25px;
 }
 
 .portfolio-links{
@@ -252,30 +263,19 @@ body {
 }
 
 .icons {
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   display: inline-block;
   text-align: center;
 }
 
 #wrapper {
-  padding: 2%;
+  padding: 1%;
   display: inline-block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 8%;
-}
-
-#wrapper .text {
-  position:relative;
-  left:0px;
-  visibility:visible;
-  font-size: 25px;
-  text-align: center;
-  padding-top: 10px;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
 }
 
 #skills-wrapper {
@@ -579,7 +579,7 @@ button.aws-sld__controls  {
 
 /* media query for responsive design*/
 @media only screen and (max-width: 2000px) {
-
+/*
   .icons {
     height: 70px;
     width: 70px;
@@ -628,15 +628,15 @@ button.aws-sld__controls  {
     padding-top: 2%;
     padding-bottom: 2%;
     padding-right: 3%;
-  }
+  } */
 }
 
 
 @media only screen and (max-width: 1700px) {
 
-  .about-me-description {
+  /* .about-me-description {
     padding-bottom: 5%;
-    /* margin-top: 10%; */
+    margin-top: 10%;
   }
 
   .icons {
@@ -661,12 +661,12 @@ button.aws-sld__controls  {
     visibility:hidden;
     font-size: 0px;
     text-align: center;
-    /* padding-top: 10px; */
+    padding-top: 10px;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-  }
+  } */
 
-  .logo {
+  /* .logo {
     display: block;
     margin-top: 25%;
     margin-bottom: 25%;
@@ -678,9 +678,9 @@ button.aws-sld__controls  {
     margin-left: auto;
     margin-right: auto;
     border: 14px double white;
-  }
+  } */
 
-  .table {
+  /* .table {
     display: block;
     width: 100%;
     padding-left: 0px;
@@ -717,19 +717,19 @@ button.aws-sld__controls  {
 
   .contact-sub-header {
     font-size: 40px;
-  }
+  } */
 }
 
 @media only screen and (max-width: 1500px) {
-  .main-nav-link {
+  /* .main-nav-link {
     font-size: 25px;
   }
 
   .active {
     font-size: 25px;
-  }
+  } */
 
-  .project-card {
+  /* .project-card {
     padding-bottom: 5%;
   }
 
@@ -742,22 +742,22 @@ button.aws-sld__controls  {
   }
 
   .home-page-div {
-    /* margin-top: 27%; */
-    /* padding: 10%; */
-  }
+    margin-top: 27%;
+    padding: 10%;
+  } */
 
 }
 
 @media only screen and (max-width: 600px) {
 
-  .main-nav-link {
+  /* .main-nav-link {
     font-size: 20px;
-  }
+  } */
 
-  .logo {
+  /* .logo {
     width: 50px;
     height: 50px;
-  }
+  } */
 
 
 }
