@@ -193,7 +193,6 @@ body {
   height: 100px;
   width: 100px;
   display: inline-block;
-  color: blue;
   text-align: center;
 }
 
@@ -221,7 +220,6 @@ body {
   margin-left: auto;
   margin-right: auto;
   text-align: c
-
 }
 
 .rounded {
@@ -233,29 +231,38 @@ body {
   margin: 4%;
   border: 1px dotted black;
   padding: 2%;
+  text-align: left;
 }
 
 .education-header {
+  margin: 0px;
   font-size: 50px;
   color: #2a4570;
   font-weight: bolder;
   text-decoration: none;
   text-transform: uppercase;
+  width: 70%;
+  text-align: left;
 }
 
 .education-subheader {
   margin: 0px;
+  text-align: left;
   font-size: 35px;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.education-right {
-  position: relative;
+.education-right p{
   float: right;
-  display: block;
-  padding: 2%;
+  text-align: right;
+  display: inline;
+  width: 25%;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-right: 1%;
 }
+
 
 /* PROJECTS PAGE*/
 .project-card {
@@ -349,7 +356,10 @@ body {
   background-color:#5e5b55;
   color: white;
   text-transform: uppercase;
-  padding: 1%;
+  padding-left: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 3%;
 }
 
 .text-div {
@@ -360,8 +370,8 @@ body {
   width: 45%;
   position: relative;
   display: inline-block;
+  padding-left: 2%;
 }
-
 
 li {
    padding-top: 10px;
@@ -369,7 +379,7 @@ li {
 }
 
 #technologies-list {
-  padding-right: 2%;
+  padding-left: 2%;
   width: 40%;
 }
 
@@ -390,7 +400,7 @@ li.description {
 }
 
 .image-gallery {
-  float: right;
+  float: left;
   position: relative;
   width: 50%;
   display: inline-block;
@@ -399,15 +409,30 @@ li.description {
 }
 
 /* CONTACT PAGE*/
+
+.about-me-description {
+  text-align: justify;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 33px;
+  background-color: white;
+  padding: 30px;
+  color: #5e5b55;
+  box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+  font-family: "Montserrat", sans-serif;
+}
 .contact-form {
   background-color: white;
-  /* border-radius: 1em; */
-  margin-left: 10%;
-  margin-top: 8%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-top: 10%;
+  margin-bottom: 2%;
+  margin-right: auto;
   padding-top: 2%;
-  padding-bottom: 10%;
-  height: 1000px;
+  padding-bottom: 3%;
+  width: 80%;
   text-align: center;
   box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
   font-family: "Montserrat", sans-serif;
@@ -475,4 +500,62 @@ li.description {
   margin-bottom: 4%;
   text-align: center;
   /* text-decoration: underline; */
+}
+/* media query for responsive design*/
+@media only screen and (max-width: 2000px) {
+  .header {
+    color: pink;
+  }
+
+  .icons {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #wrapper {
+    padding: 3%;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+  }
+
+  #wrapper .text {
+    position:relative;
+    left:0px;
+    visibility:visible;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+
+  p.description {
+    font-size: 25px;
+    width: 100%;
+    padding-bottom: 1%;
+  }
+
+  li.description {
+    font-size: 25px;
+    width: 100%;
+  }
+
+  .project-card-sub-header {
+    font-size: 30px;
+    font-weight: bold;
+    background-color:#5e5b55;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+  }
+
+
 }

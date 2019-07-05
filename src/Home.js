@@ -28,14 +28,6 @@ class Home extends React.Component {
             style={{ height: 75, width: 75 }}
           />
           <SocialIcon
-            url="https://sivanadler.wordpress.com/"
-            network="medium"
-            bgColor="currentColor"
-            fgColor="white"
-            className="social-icons"
-            style={{ height: 75, width: 75 }}
-          />
-          <SocialIcon
             url="https://sivanadler.wixsite.com/sivanportfolio"
             bgColor="currentColor"
             fgColor="white"

@@ -5,6 +5,9 @@ import Nav from './Nav'
 import About from './About'
 import Project from './Project'
 import Contact from './Contact'
+import Education from './Education'
+import Experience from './Experience'
+
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
 
 class App extends React.Component {
@@ -17,9 +20,17 @@ class App extends React.Component {
         </div>
         <div className="right">
           <Route exact path="/home" render={routerProps => <Home {...routerProps}/>}/>
+          
           <Route exact path="/about" render={routerProps => <About {...routerProps}/>}/>
+
           <Route exact path="/projects" render={routerProps => <Project {...routerProps}/>}/>
+
+          <Route exact path="/education" render={routerProps => <Education {...routerProps}/>}/>
+
+          <Route exact path="/experience" render={routerProps => <Experience {...routerProps}/>}/>
+
           <Route exact path="/contact" render={routerProps => <Contact {...routerProps}/>}/>
+
           <Home />
         </div>
       </div>

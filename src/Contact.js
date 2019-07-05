@@ -16,7 +16,6 @@ class Contact extends React.Component {
         <div className="left">
           <Nav history={this.props.history}/>
         </div>
-
         <div className="right">
           <div className="contact-form">
             <h1 className="header">CONTACT</h1>

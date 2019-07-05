@@ -17,8 +17,8 @@ class Education extends React.Component {
               name={'Flatiron School'}
               degree={'Software Engineering Immersive'}
               location={'New York, NY'}
-              date={'January - April 2019'}
-              description={'15 week immersive software engineering program, focused on providing a solid foundation for students to become full-stack engineers. Languages and frameworks include Ruby/Ruby on Rails, SQL, HTML/CSS, JavaScript, React, Redux, etc.'}
+              date={'Jan - Apr 2019'}
+              description={'15 week immersive software engineering program, focused on providing a solid foundation for students to become full-stack engineers. Languages and frameworks include JavaScript, React, Redux,  Ruby/Ruby on Rails, SQL, HTML/CSS, etc.'}
             />
             <EducationListing
               name={'New York Code and Design Academy'}
@@ -31,7 +31,7 @@ class Education extends React.Component {
               name={'Muhlenberg College'}
               degree={'Bachelor of Arts'}
               location={'Allentown, PA'}
-              date={'August 2012 - May 2016'}
+              date={'Aug 2012 - May 2016'}
               description={'Major: Psychology | Minors: Studio Art and Jewish Studies'}
             />
           </div>

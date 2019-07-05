@@ -73,14 +73,6 @@ class Nav extends React.Component {
             style={{ height: 20, width: 20 }}
           />
           <SocialIcon
-            url="https://sivanadler.wordpress.com/"
-            network="medium"
-            bgColor="currentColor"
-            fgColor="white"
-            className="social-mini-icons"
-            style={{ height: 20, width: 20 }}
-          />
-          <SocialIcon
             url="https://sivanadler.wixsite.com/sivanportfolio"
             bgColor="currentColor"
             fgColor="white"
