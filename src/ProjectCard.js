@@ -18,7 +18,7 @@ class ProjectCard extends React.Component {
     if (this.props.accomplishments !== []) {
       return this.props.accomplishments.map(el => {
         return (
-          <li className="description">{el}</li>
+          <li>{el}</li>
         )
       })
     }
@@ -50,7 +50,7 @@ class ProjectCard extends React.Component {
               <h1 className='project-card-sub-header'>
                 TECHNOLOGIES:
               </h1>
-                <p className="description">{this.props.technologies}</p>
+                <p className="technologies">{this.props.technologies}</p>
             <h1 className='project-card-sub-header'>
               FUNCTIONALITY HIGHLIGHTS:
             </h1>

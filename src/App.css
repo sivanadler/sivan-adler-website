@@ -373,7 +373,7 @@ h2.about-text {
 }
 
 .project-card-header {
-  font-size: 80px;
+  font-size: 50px;
   color: #2a4570;
   font-weight: bolder;
   text-decoration: none;
@@ -382,7 +382,7 @@ h2.about-text {
 }
 
 .project-card-header a {
-  font-size: 80px;
+  font-size: 50px;
   color: #2a4570;
   font-weight: bolder;
   text-decoration: none;
@@ -391,7 +391,7 @@ h2.about-text {
 }
 
 .project-card-header a:hover {
-  font-size: 80px;
+  font-size: 50px;
   color: #2a4570;
   font-weight: bold;
   text-decoration: underline;
@@ -399,21 +399,15 @@ h2.about-text {
   margin-bottom: 10px;
 }
 
-.project-card-links {
-  font-size: 35px;
-  color: #5e5b55;
-  margin: 0px;
-}
-
 .project-card-links a {
-  font-size: 35px;
+  font-size: 30px;
   color: #5c94ed;
   margin: 0px;
   text-decoration: none;
 }
 
 .project-card-links a:hover {
-  font-size: 35px;
+  font-size: 30px;
   color: #2a4570;
   margin: 0px;
   text-decoration: underline;
@@ -427,19 +421,14 @@ h2.about-text {
 }
 
 .project-card-sub-header {
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
-  background-color:#5e5b55;
-  color: white;
+  /* background-color:#5e5b55; */
+  color: #2a4570;
+  border-bottom: 1px dotted #5e5b55;
   text-transform: uppercase;
-  padding-left: 3%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  padding-right: 3%;
-}
-
-.text-div {
-  padding-right: 4%;
+  margin-left: 5%;
+  margin-top: 0px;
 }
 
 .table {
@@ -451,29 +440,36 @@ h2.about-text {
 
 li {
    padding-top: 10px;
-   margin-left: 10px;
+}
+
+.technologies {
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-size: 18px;
 }
 
 #technologies-list {
-  padding-left: 2%;
+  padding-left: 5%;
   width: 40%;
 }
 
 #functionality-list li{
-  width: 80%;
-  padding-top: 20px;
+  width: 100%;
+  padding-top: 10px;
 }
 
 p.description {
-  font-size: 30px;
+  font-size: 18px;
   width: 100%;
   padding-bottom: 1%;
 }
 
-li.description {
-  font-size: 30px;
+li {
+  font-size: 18px;
   width: 100%;
+  margin-right: 0px;
 }
+
 
 .image-gallery {
   float: left;
@@ -491,8 +487,8 @@ button.aws-sld__controls  {
 }
 
 .slider {
-  padding: 20px;
-  background-color: rgba(0,0,0,0.7);
+  padding: 10px;
+  background-color: rgba(0,0,0,0.8);
 }
 
 
