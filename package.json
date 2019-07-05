@@ -9,6 +9,7 @@
     "react-dom": "^16.8.6",
     "react-mail-form": "^1.0.3",
     "react-redux": "^7.0.3",
+    "react-responsive-navbar": "^1.0.11",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.1"
   },

@@ -16,11 +16,11 @@ class App extends React.Component {
     return (
       <div className="App">
         <div className="left">
-        <Nav history={this.props.history}/>
+          <Nav history={this.props.history}/>
         </div>
         <div className="right">
           <Route exact path="/home" render={routerProps => <Home {...routerProps}/>}/>
-          
+
           <Route exact path="/about" render={routerProps => <About {...routerProps}/>}/>
 
           <Route exact path="/projects" render={routerProps => <Project {...routerProps}/>}/>
@@ -30,8 +30,8 @@ class App extends React.Component {
           <Route exact path="/experience" render={routerProps => <Experience {...routerProps}/>}/>
 
           <Route exact path="/contact" render={routerProps => <Contact {...routerProps}/>}/>
-
           <Home />
+
         </div>
       </div>
     );
