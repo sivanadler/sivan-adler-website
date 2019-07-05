@@ -501,6 +501,8 @@ li.description {
   text-align: center;
   /* text-decoration: underline; */
 }
+
+
 /* media query for responsive design*/
 @media only screen and (max-width: 2000px) {
   .header {
@@ -556,6 +558,92 @@ li.description {
     padding-bottom: 2%;
     padding-right: 3%;
   }
+}
 
 
+@media only screen and (max-width: 1700px) {
+  .header {
+    color: yellow;
+  }
+
+  .about-me-description {
+    padding-bottom: 5%;
+    margin-top: 10%;
+  }
+
+  .icons {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  #wrapper {
+    padding: 2%;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+  }
+
+  #wrapper .text {
+    position:relative;
+    left:0px;
+    visibility:hidden;
+    font-size: 0px;
+    text-align: center;
+    /* padding-top: 10px; */
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+  }
+
+  .logo {
+    display: block;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    color: white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 15em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 14px double white;
+  }
+
+  .table {
+    display: block;
+    width: 100%;
+  }
+
+  .image-gallery {
+    display: block;
+    width: 100%;
+    float: none;
+  }
+
+  .project-card-sub-header {
+    font-size: 30px;
+    font-weight: bold;
+    background-color:#5e5b55;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+  }
+
+  .education-right p{
+    width: 30%;
+  }
+
+  .contact-form {
+    margin-top: 15%;
+  }
+
+  .contact-sub-header {
+    font-size: 40px;
+  }
 }
