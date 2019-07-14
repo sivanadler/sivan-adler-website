@@ -62,8 +62,8 @@ body {
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3){
-  opacity: 0;
-  transform: rotate(-45deg) translate(-5px, -1px);
+  opacity: 1;
+  transform: rotate(45deg) translate(-5px, -1px);
 }
 
 #menuToggle input:checked ~ span:nth-last-child(2){
@@ -713,6 +713,7 @@ button.aws-sld__controls  {
   .left {
     position: fixed;
     width: 100%;
+    height: 100px;
     overflow: scroll;
   }
 
@@ -1114,7 +1115,7 @@ button.aws-sld__controls  {
   }
 
   .mobile-text {
-    right: 7%;
+    right: 9%;
     top: 3%;
     position: absolute;
     font-size: 25px;
