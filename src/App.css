@@ -7,6 +7,7 @@ body {
 }
 
 /* NAV BAR */
+
 #menuToggle{
   display: block;
   position: relative;
@@ -49,23 +50,25 @@ body {
 }
 
 #menuToggle span:nth-last-child(2){
-  transform-origin: 0% 100%;
+  opacity: 1;
+  transform: rotate(45deg) translate(-10px, -1px);
 }
 
 #menuToggle input:checked ~ span{
   opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
   background: white;
+  transform: rotate(45deg) translate(-5px, -1px);
   display: block;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3){
   opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+  transform: rotate(-45deg) translate(-5px, -1px);
 }
 
 #menuToggle input:checked ~ span:nth-last-child(2){
-  transform: rotate(-45deg) translate(0, -1px);
+  opacity: 1;
+  transform: rotate(45deg) translate(-10px, -1px);
 }
 
 #menu{
@@ -105,6 +108,15 @@ body {
   overflow: scroll;
   height: 100%;
   margin: 0px;
+}
+
+.mobile-text {
+  visibility: hidden;
+  right: 10%;
+  top: 4%;
+  position: absolute;
+  font-size: 25px;
+  color: white;
 }
 
 .main-nav-link{
@@ -1102,12 +1114,12 @@ button.aws-sld__controls  {
   }
 
   .mobile-text {
-    right: 10%;
-    top: 5%;
+    right: 7%;
+    top: 3%;
     position: absolute;
     font-size: 25px;
     color: white;
-    font-weight: bold;
+    visibility: visible;
   }
 
 }
