@@ -472,7 +472,6 @@ li {
   margin-right: 0px;
 }
 
-
 .image-gallery {
   float: left;
   position: relative;
@@ -490,7 +489,7 @@ button.aws-sld__controls  {
 
 .slider {
   padding: 10px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.7);
 }
 
 
@@ -597,13 +596,13 @@ button.aws-sld__controls  {
   #menu{
     position: fixed;
     overflow: scroll;
-    padding-top: 30px;
+    padding-top: 35px;
     padding-left: 0px;
     padding-right: 0px;
     left: 90px;
     width: 100%;
     z-index: 0;
-    margin-top: 5%;
+    margin-top: 4%;
     -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
     -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
     box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
@@ -660,7 +659,7 @@ button.aws-sld__controls  {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     text-align: center;
     font-size: 30px;
     text-decoration: none;
@@ -775,8 +774,8 @@ button.aws-sld__controls  {
 
   .project-card {
     background-color: white;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 7%;
+    padding-right: 7%;
     padding-top: 1%;
     padding-bottom: 70%;
     margin-top:4%;
@@ -920,10 +919,68 @@ button.aws-sld__controls  {
 
   .slider {
     padding: 10px;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.7);
   }
 
+  .education-listing {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    border: 0.5px dotted black;
+    padding: 2%;
+    text-align: left;
+  }
 
+  .education-header {
+    margin: 5px;
+    font-size: 20px;
+    text-align: left;
+    color: #2a4570;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 75%;
+    text-align: left;
+  }
+
+  .education-subheader {
+    margin: 5px;
+    text-align: left;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .education-right p{
+    float: right;
+    text-align: right;
+    display: inline;
+    width: 20%;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-right: 1%;
+  }
+
+  p.education-text {
+    text-align: left;
+    font-size: 12px;
+  }
+
+  /* EXPERIENCE PAGE */
+  .education-header a {
+    color: #2a4570;
+    text-decoration: none;
+    font-size: 25px;
+  }
+
+  .bullet {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .education-text {
+    padding-left: 5px;
+  }
 
 
 }
