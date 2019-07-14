@@ -659,5 +659,20 @@ button.aws-sld__controls  {
     width: 100%;
   }
 
+  .left {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    z-index: 10;
+  }
+
+  .right {
+    position: relative;
+    width: 100%;
+    overflow: scroll;
+    height: 100%;
+    margin: 0px;
+  }
 
 }
