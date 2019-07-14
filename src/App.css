@@ -642,7 +642,7 @@ button.aws-sld__controls  {
     left: 10px;
     cursor: pointer;
     opacity: 0;
-    z-index: 2;
+    z-index: 10;
     -webkit-touch-callout: none;
   }
 
@@ -703,6 +703,7 @@ button.aws-sld__controls  {
     position: fixed;
     width: 100%;
     overflow: scroll;
+    z-index: 2;
   }
 
   .right {
@@ -747,6 +748,7 @@ button.aws-sld__controls  {
 
   .social-icons {
     margin-left: 5%;
+    z-index: 10;
   }
 
   .sivan {
@@ -883,7 +885,7 @@ button.aws-sld__controls  {
   }
 
   .project-card-links a:hover {
-    font-size: 30px;
+    font-size: 18px;
     color: #2a4570;
     margin: 0px;
     text-decoration: underline;
