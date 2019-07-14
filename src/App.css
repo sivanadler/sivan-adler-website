@@ -278,10 +278,6 @@ h2.about-text {
   text-align: c
 }
 
-.rounded {
-  border-radius: .5em;
-}
-
 /* EDUCATION PAGE */
 .education-listing {
   margin: 4%;
@@ -676,7 +672,7 @@ button.aws-sld__controls  {
   .left {
     position: fixed;
     width: 100%;
-    overflow: hidden;
+    overflow: scroll;
   }
 
   .right {
@@ -753,11 +749,6 @@ button.aws-sld__controls  {
     font-size: 20px;
   }
 
-  .portfolio-links{
-    padding: 10px;
-    text-decoration: none;
-  }
-
   .icons {
     height: 30px;
     width: 30px;
@@ -778,12 +769,161 @@ button.aws-sld__controls  {
   #skills-wrapper {
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+
+  }
+
+  .project-card {
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 70%;
+    margin-top:4%;
+    margin-bottom:5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100%;
+    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    font-family: "Montserrat", sans-serif;
     text-align: left;
   }
 
-  .rounded {
-    border-radius: .5em;
+  .project-header {
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    margin-top: 30%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100%;
+    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    font-family: "Montserrat", sans-serif;
   }
+
+  .project-card-header {
+    font-size: 35px;
+    color: #2a4570;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .project-card-header a {
+    font-size: 35px;
+    color: #2a4570;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .project-card-header a:hover {
+    font-size: 35px;
+    color: #2a4570;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .project-card-links a {
+    font-size: 18px;
+    color: #5c94ed;
+    margin: 0px;
+    text-decoration: underline;
+  }
+
+  .project-card-links {
+    margin: 0px;
+  }
+
+  .project-card-links a:hover {
+    font-size: 30px;
+    color: #2a4570;
+    margin: 0px;
+    text-decoration: underline;
+  }
+
+  .seperator {
+    padding: 5px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #5e5b55;
+  }
+
+  .project-card-sub-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a4570;
+    border-bottom: 1px dotted #5e5b55;
+    text-transform: uppercase;
+    margin-left: -7px;
+    margin-right: 10px;
+  }
+
+  .table {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding-left: 2%;
+  }
+
+  li {
+     padding-top: 10px;
+  }
+
+  .technologies {
+    margin-left: -7px;
+    margin-bottom: 5%;
+    font-size: 12px;
+  }
+
+  #technologies-list {
+    width: 100%;
+  }
+
+  #functionality-list{
+    width: 100%;
+    padding-left: 10px;
+  }
+
+
+  p.description {
+    font-size: 12px;
+    width: 100%;
+    padding-bottom: 4%;
+  }
+
+  li {
+    font-size: 12px;
+    margin-left: 0px;
+
+  }
+
+
+  .image-gallery {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-top: 1%;
+    margin-right: 3%;
+    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    background-color: none;
+    float: right;
+  }
+  button.aws-sld__controls  {
+    background-color: white;
+  }
+
+  .slider {
+    padding: 10px;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
 
 
 }
