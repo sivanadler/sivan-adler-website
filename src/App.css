@@ -587,7 +587,7 @@ button.aws-sld__controls  {
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 1;
+    z-index: 20;
     -webkit-user-select: none;
     user-select: none;
     background-color: #2a4570;
@@ -595,6 +595,7 @@ button.aws-sld__controls  {
     height: 50px;
     padding-top: 30px;
     padding-left: 20px;
+    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
   }
 
   #menu{
@@ -616,6 +617,19 @@ button.aws-sld__controls  {
     transform-origin: 0% 0%;
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+
+  #menuToggle input{
+    display: block;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+    -webkit-touch-callout: none;
   }
 
   .main-nav-link{
@@ -672,7 +686,46 @@ button.aws-sld__controls  {
     width: 100%;
     overflow: scroll;
     height: 100%;
-    margin: 0px;
+    margin-top: 20%;
+  }
+
+  .home-page-div{
+    width: 70%;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 8%;
+    padding: 5%;
+    background-color: white;
+    -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  }
+
+  .header {
+    margin: 8%;
+    font-size: 40px;
+  }
+
+  .sub-header {
+    margin: 5%;
+    font-size: 20px;
+  }
+
+  .interests {
+    font-size: 15px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+  }
+
+  .seperator {
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .social-icons {
+    margin-left: 5%;
   }
 
 }
