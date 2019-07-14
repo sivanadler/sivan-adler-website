@@ -687,6 +687,7 @@ button.aws-sld__controls  {
     overflow: scroll;
     height: 100%;
     margin-top: 20%;
+    z-index: 0;
   }
 
   .home-page-div{
