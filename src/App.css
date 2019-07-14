@@ -926,7 +926,7 @@ button.aws-sld__controls  {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 10%;
-    border: 0.5px dotted black;
+    border: 1px dotted black;
     padding: 2%;
     text-align: left;
   }
@@ -939,14 +939,14 @@ button.aws-sld__controls  {
     font-weight: bolder;
     text-decoration: none;
     text-transform: uppercase;
-    width: 75%;
+    width: 70%;
     text-align: left;
   }
 
   .education-subheader {
     margin: 5px;
     text-align: left;
-    font-size: 15px;
+    font-size: 12px;
     text-decoration: none;
     text-transform: uppercase;
   }
@@ -955,7 +955,7 @@ button.aws-sld__controls  {
     float: right;
     text-align: right;
     display: inline;
-    width: 20%;
+    width: 18%;
     font-size: 12px;
     margin-top: 5px;
     margin-right: 1%;
