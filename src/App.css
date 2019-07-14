@@ -1101,5 +1101,13 @@ button.aws-sld__controls  {
     /* text-decoration: underline; */
   }
 
+  .mobile-text {
+    right: 10%;
+    top: 5%;
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+  }
 
 }

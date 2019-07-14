@@ -50,6 +50,7 @@ class Nav extends React.Component {
               <span className='hamburger'></span>
               <span className='hamburger'></span>
               <span className='hamburger'></span>
+              <p className="mobile-text">SIVAN ADLER</p>
             <ul id="menu">
               <NavLink to="/" exact className='logo-nav-link'> <img className="logo" src={logo}/> </NavLink>
               <NavLink to="/" exact className={this.getclassName("/")} onClick={this.handleGoHome}><p className="main-nav-link-text"><strong>HOME</strong></p></NavLink>
