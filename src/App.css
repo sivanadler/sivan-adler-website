@@ -12,7 +12,6 @@ body {
   position: relative;
   top: 50px;
   left: 50px;
-  z-index: 1;
   -webkit-user-select: none;
   user-select: none;
 }
@@ -97,6 +96,7 @@ body {
   width: 20%;
   overflow: hidden;
   height: 100%;
+  z-index: 1;
 }
 
 .right {
@@ -599,7 +599,6 @@ button.aws-sld__controls  {
     position: fixed;
     top: 0px;
     left: 0px;
-    z-index: 20;
     -webkit-user-select: none;
     user-select: none;
     background-color: #2a4570;
@@ -642,7 +641,7 @@ button.aws-sld__controls  {
     left: 10px;
     cursor: pointer;
     opacity: 0;
-    z-index: 10;
+    z-index: 2;
     -webkit-touch-callout: none;
   }
 
@@ -703,7 +702,6 @@ button.aws-sld__controls  {
     position: fixed;
     width: 100%;
     overflow: scroll;
-    z-index: 2;
   }
 
   .right {
@@ -748,7 +746,6 @@ button.aws-sld__controls  {
 
   .social-icons {
     margin-left: 5%;
-    z-index: 10;
   }
 
   .sivan {
