@@ -46,12 +46,10 @@ class Nav extends React.Component {
       <div className="nav">
         <nav role="navigation">
           <div id="menuToggle">
-
             <input type="checkbox" />
-
-            <span className="hamburger"></span>
-            <span className="hamburger"></span>
-            <span className="hamburger"></span>
+              <span className='hamburger'></span>
+              <span className='hamburger'></span>
+              <span className='hamburger'></span>
             <ul id="menu">
               <NavLink to="/" exact className='logo-nav-link'> <img className="logo" src={sivan}/> </NavLink>
               <NavLink to="/" exact className={this.getclassName("/")} onClick={this.handleGoHome}><p className="main-nav-link-text"><strong>HOME</strong></p></NavLink>
