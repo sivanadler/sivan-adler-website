@@ -14,9 +14,9 @@ class Home extends React.Component {
         <h3 className="sub-header">Full Stack Software Engineer with An Eye For Design</h3>
         <p className="interests"> NYC Native <span className='seperator'>|</span> Israeli  <span className='seperator'>|</span> Foodie <span className='seperator'>|</span> Dog Lover <span className='seperator'>|</span> Studio Artist </p>
         <div className="socials">
-          <img className="social-icons" src={linkedin}/>
-          <img className="social-icons" src={github}/>
-          <img className="social-icons" src={wordpress}/>
+          <a href="https://www.linkedin.com/in/sivanadler/"> <img className="social-icons" src={linkedin}/>< /a>
+          <a href="https://github.com/sivanadler"> <img className="social-icons" src={github}/> </a>
+          <a href="https://sivanadler.wordpress.com/"> <img className="social-icons" src={wordpress}/> </a>
 
         </div>
       </div>
