@@ -188,23 +188,17 @@ body {
 }
 
 .social-icons {
-  margin-left: 2%;
-  margin-right: 2%;
+  height: 40px;
+  margin-left: 1%;
+  margin-right: 1%;
   color: #2a4570;
-}
-
-.social-icons:hover {
-  margin-left: 2%;
-  margin-right: 2%;
-  height: 80px;
-  color: black;
 }
 
 .interests {
   text-align: center;
   text-transform: uppercase;
   padding-bottom: 2%;
-  font-size: 20px;
+  font-size: 18px;
   color: #5e5b55;
   margin-bottom: 0px;
 }
@@ -220,7 +214,7 @@ body {
 
 .sub-header {
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   color: #5e5b55;
   padding: 0px;
   margin: 0px;
@@ -291,14 +285,14 @@ h2.about-text {
 /* EDUCATION PAGE */
 .education-listing {
   margin: 4%;
-  border: 1px dotted black;
+  border: 0.5px dotted black;
   padding: 2%;
   text-align: left;
 }
 
 .education-header {
   margin: 0px;
-  font-size: 35px;
+  font-size: 30px;
   text-align: left;
   color: #2a4570;
   font-weight: bolder;
@@ -311,7 +305,7 @@ h2.about-text {
 .education-subheader {
   margin: 0px;
   text-align: left;
-  font-size: 25px;
+  font-size: 20px;
   text-decoration: none;
   text-transform: uppercase;
 }

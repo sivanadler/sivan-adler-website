@@ -1,6 +1,9 @@
 import React from "react";
 // import { SocialIcon } from 'react-social-icons';
 import Nav from './Nav'
+import github from './icons/github.svg'
+import linkedin from './icons/linkedin.svg'
+import wordpress from './icons/wordpress.svg'
 
 class Home extends React.Component {
 
@@ -11,6 +14,9 @@ class Home extends React.Component {
         <h3 className="sub-header">Full Stack Software Engineer with An Eye For Design</h3>
         <p className="interests"> NYC Native <span className='seperator'>|</span> Israeli  <span className='seperator'>|</span> Foodie <span className='seperator'>|</span> Dog Lover <span className='seperator'>|</span> Studio Artist </p>
         <div className="socials">
+          <img className="social-icons" src={linkedin}/>
+          <img className="social-icons" src={github}/>
+          <img className="social-icons" src={wordpress}/>
 
         </div>
       </div>
