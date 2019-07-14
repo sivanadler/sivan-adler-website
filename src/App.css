@@ -677,7 +677,6 @@ button.aws-sld__controls  {
     position: fixed;
     width: 100%;
     overflow: hidden;
-    height: 100%;
     z-index: 10;
   }
 
@@ -685,9 +684,8 @@ button.aws-sld__controls  {
     position: relative;
     width: 100%;
     overflow: scroll;
-    height: 100%;
     margin-top: 20%;
-    z-index: 0;
+    z-index: -1;
   }
 
   .home-page-div{
