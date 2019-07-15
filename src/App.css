@@ -1098,6 +1098,7 @@ button.aws-sld__controls  {
     height: 50px;
     padding-top: 30px;
     padding-left: 20px;
+    z-index: 2;
     /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   }
 
@@ -1201,6 +1202,7 @@ button.aws-sld__controls  {
     overflow: hidden;
     z-index: 1;
     height: 100%;
+    width: 100%;
   }
 
   .right {
