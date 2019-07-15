@@ -1234,7 +1234,7 @@ button.aws-sld__controls  {
   .right {
     position: relative;
     width: 100%;
-    overflow-y: scroll;
+    overflow: scroll;
   }
 
   .home-page-div{

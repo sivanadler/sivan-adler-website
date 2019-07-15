@@ -56,7 +56,7 @@ class Nav extends React.Component {
               <span className='hamburger'></span>
               <span className='hamburger'></span>
               <p className="menu-text">MENU</p>
-              <p className="mobile-text"><strong>SIVAN ADLER:</strong> SOFTWARE ENGINEER</p>
+              <p className="mobile-text" onClick={this.scrollToTop}><strong>SIVAN ADLER:</strong> SOFTWARE ENGINEER</p>
             <ul id="menu">
               <li className="logo-nav-link">
               <img
@@ -88,7 +88,6 @@ class Nav extends React.Component {
                   smooth={true}
                   offset={-70}
                   duration={500}
-                  onClick={this.handleMenuToggle}
                 >
                   <p><strong>ABOUT</strong></p>
                 </Link>
