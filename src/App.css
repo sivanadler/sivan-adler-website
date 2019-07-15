@@ -315,18 +315,49 @@ h2.about-text {
 }
 
 #wrapper {
-  padding: 1%;
+  padding: 1.5%;
   display: inline-block;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
   width: 8%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: #008CBA;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+#wrapper:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 #skills-wrapper {
   margin-left: auto;
   margin-right: auto;
-  text-align: c
 }
 
 /* EDUCATION PAGE */

@@ -17,6 +17,16 @@ import aws from './icons/aws.svg'
 import bootstrap from './icons/bootstrap.svg'
 import npm from './icons/npm.svg'
 import logo from './images/my-logo.png'
+import excel from './icons/excel.svg'
+import word from './icons/word.svg'
+import powerpoint from './icons/powerpoint.svg'
+import sketch from './icons/sketch.svg'
+import ux from './icons/ux.svg'
+import photoshop from './icons/photoshop.svg'
+import indesign from './icons/indesign.svg'
+import illustrator from './icons/illustrator.svg'
+import designthinking from './icons/designthinking.svg'
+import invision from './icons/invision.svg'
 import Footer from './Footer'
 
 class About extends React.Component {
@@ -28,7 +38,6 @@ class About extends React.Component {
           <Nav history={this.props.history}/>
         </div>
         <div className="right">
-          <div className="right">
             <div className="about-me-description">
             <h1 className="header">ABOUT ME</h1>
               <img className="sivan" src={sivan} />
@@ -37,50 +46,154 @@ class About extends React.Component {
               <div id="skills-wrapper">
                 <div id="wrapper">
                   <img className="icons rounded" src={javascript}/>
+                  <div class="overlay">
+                    <div class="text">JAVASCRIPT</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={react}/>
+                  <div class="overlay">
+                    <div class="text">REACT</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={redux}/>
+                  <div class="overlay">
+                    <div class="text">REDUX</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={npm}/>
+                  <div class="overlay">
+                    <div class="text">NPM</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={ruby}/>
+                  <div class="overlay">
+                    <div class="text">RUBY</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={rails}/>
+                  <div class="overlay">
+                    <div class="text">RAILS</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={css}/>
+                  <div class="overlay">
+                    <div class="text">CSS</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={html}/>
+                  <div class="overlay">
+                    <div class="text">HTML</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={bootstrap}/>
+                  <div class="overlay">
+                    <div class="text">BOOTSTRAP</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={sql}/>
+                  <div class="overlay">
+                    <div class="text">SQL</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={postgres}/>
+                  <div class="overlay">
+                    <div class="text">POSTGRESQL</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={git}/>
+                  <div class="overlay">
+                    <div class="text">GIT</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={github}/>
+                  <div class="overlay">
+                    <div class="text">GITHUB</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={heroku}/>
+                  <div class="overlay">
+                    <div class="text">HEROKU</div>
+                  </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={aws}/>
+                  <div class="overlay">
+                    <div class="text">AWS</div>
+                  </div>
                 </div>
-                <br/>
+            </div>
+            <h2 className="about-text">OTHER SKILLS</h2>
+            <div id="wrapper">
+              <img className="icons rounded" src={ux}/>
+              <div class="overlay">
+                <div class="text">UX/UI Design</div>
+              </div>
+            </div>
+            <div id="wrapper">
+              <img className="icons rounded" src={designthinking}/>
+              <div class="overlay">
+                <div class="text">Design Thinking</div>
+              </div>
+            </div>
+            <div id="wrapper">
+              <img className="icons rounded" src={sketch}/>
+              <div class="overlay">
+                <div class="text">Sketch</div>
+              </div>
+            </div>
+            <div id="wrapper">
+              <img className="icons rounded" src={invision}/>
+              <div class="overlay">
+                <div class="text">Invision</div>
+              </div>
+            </div>
+            <div id="wrapper">
+              <img className="icons rounded" src={photoshop}/>
+              <div class="overlay">
+                <div class="text"> Adobe Photoshop</div>
+              </div>
+            </div>
+            <div id="wrapper">
+              <img className="icons rounded" src={illustrator}/>
+              <div class="overlay">
+                <div class="text"> Adobe Illustrator</div>
+              </div>
+            </div>
+            <div id="wrapper">
+              <img className="icons rounded" src={indesign}/>
+              <div class="overlay">
+                <div class="text"> Adobe Indesign</div>
+              </div>
+            </div>
+            <div id="wrapper">
+              <img className="icons rounded" src={excel}/>
+              <div class="overlay">
+                <div class="text">Microsoft Excel</div>
+              </div>
+            </div>
+            <div id="wrapper">
+              <img className="icons rounded" src={word}/>
+              <div class="overlay">
+                <div class="text">Microsoft Word</div>
+              </div>
+            </div>
+            <div id="wrapper">
+              <img className="icons rounded" src={powerpoint}/>
+              <div class="overlay">
+                <div class="text">Microsoft Powerpoint</div>
               </div>
             </div>
           </div>
