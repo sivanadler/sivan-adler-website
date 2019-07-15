@@ -1540,8 +1540,10 @@ button.aws-sld__controls  {
   .footer-text {
     color: #5e5b55;
     font-size: 12px;
-    padding-left: 10px;
-    padding-right: 10px;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .footer {
@@ -1552,7 +1554,7 @@ button.aws-sld__controls  {
      background-color: #fcfcfc;
      color: white;
      text-align: center;
-     padding: 15px;
+     /* padding: 15px; */
   }
 
 }
