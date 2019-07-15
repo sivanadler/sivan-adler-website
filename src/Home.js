@@ -4,6 +4,7 @@ import Nav from './Nav'
 import github from './icons/github.svg'
 import linkedin from './icons/linkedin.svg'
 import wordpress from './icons/wordpress.svg'
+import wix from './icons/wix.svg'
 import Footer from './Footer'
 
 class Home extends React.Component {
@@ -18,7 +19,7 @@ class Home extends React.Component {
           <a className="icon-link" href="https://www.linkedin.com/in/sivanadler/"> <img className="social-icons" src={linkedin}/>< /a>
           <a className="icon-link" href="https://github.com/sivanadler"> <img className="social-icons" src={github}/> </a>
           <a className="icon-link" href="https://sivanadler.wordpress.com/"> <img className="social-icons" src={wordpress}/> </a>
-
+          <a className="icon-link" href="https://sivanadler.wixsite.com/sivanportfolio"> <img className="social-icons" src={wix}/> </a>
         </div>
       </div>
     )
