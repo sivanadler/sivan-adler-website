@@ -9,6 +9,7 @@ import Education from './Education';
 import Experience from './Experience';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
+import logo from './images/my-logo.png'
 
 ReactDOM.render(
   <Router>
