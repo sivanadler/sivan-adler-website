@@ -7,6 +7,7 @@ import Project from './Project'
 import Contact from './Contact'
 import Education from './Education'
 import Experience from './Experience'
+import Footer from './Footer'
 
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
 
@@ -33,6 +34,7 @@ class App extends React.Component {
           <Home />
 
         </div>
+        <Footer />
       </div>
     );
   }
