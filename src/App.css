@@ -1161,7 +1161,6 @@ button.aws-sld__controls  {
     position: fixed;
     width: 100%;
     overflow: scroll;
-    height: 20%;
   }
 
   .right {
