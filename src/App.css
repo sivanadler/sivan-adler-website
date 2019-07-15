@@ -118,10 +118,8 @@ body {
 
 .left {
   position: fixed;
-  width: 100%;
-  overflow: hidden;
-  height: 100%;
-  z-index: 1;
+  /* overflow: hidden; */
+  z-index: 10;
 }
 
 .right {
@@ -130,6 +128,14 @@ body {
   overflow: scroll;
   height: 100%;
   margin: 0px;
+}
+
+.menu-text {
+  left: 5.25%;
+  top: 0%;
+  position: absolute;
+  font-size: 25px;
+  color: white;
 }
 
 .mobile-text {
@@ -657,7 +663,7 @@ button.aws-sld__controls  {
 
 
 /* media query for responsive design*/
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
 
   .header {
     text-align: center;
@@ -954,10 +960,25 @@ button.aws-sld__controls  {
     background-color: white;
   }
 
+  .mobile-text {
+    right: 10%;
+    top: 12%;
+    width: 60%;
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    visibility: visible;
+  }
+
   .slider {
     padding: 10px;
     background-color: #9ca5ad;
     z-index: 0;
+  }
+
+  .menu-text {
+      visibility: hidden;
   }
 }
 
@@ -994,6 +1015,17 @@ button.aws-sld__controls  {
     background-color: #9ca5ad;
     color: #2a4570;
     width: 100%;
+  }
+
+  .mobile-text {
+    right: 10%;
+    top: 3%;
+    width: 60%;
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    text-align: right;
+    visibility: visible;
   }
 
   .logo-nav-link {
@@ -1036,6 +1068,10 @@ button.aws-sld__controls  {
     box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
     font-family: "Montserrat", sans-serif;
     text-align: left;
+  }
+
+  .menu-text {
+    visibility: hidden;
   }
 }
 
@@ -1157,10 +1193,10 @@ button.aws-sld__controls  {
     background-color: #9ca5ad;
   }
 
-  div.left {
+  .left {
     position: fixed;
-    width: 100%;
-    overflow: scroll;
+    /* width: 100%; */
+    overflow: hidden;
   }
 
   .right {
@@ -1569,6 +1605,10 @@ button.aws-sld__controls  {
     color: white;
     text-align: right;
     visibility: visible;
+  }
+
+  .menu-text {
+    visibility: hidden;
   }
 
   .footer-text {
