@@ -1132,7 +1132,7 @@ button.aws-sld__controls  {
     left: 10px;
     cursor: pointer;
     opacity: 0;
-    z-index: 2;
+    z-index: 5;
     -webkit-touch-callout: none;
   }
 
@@ -1211,7 +1211,7 @@ button.aws-sld__controls  {
 
   .home-page-div{
     width: 70%;
-    margin-top: 40%;
+    margin-top: 48%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 15%;
@@ -1628,7 +1628,7 @@ button.aws-sld__controls  {
      /* position: fixed; */
      left: 0;
      bottom: 0;
-     width: 100%;
+     width: 93%;
      background-color: #fcfcfc;
      color: white;
      text-align: center;
