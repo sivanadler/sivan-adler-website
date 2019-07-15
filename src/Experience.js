@@ -1,6 +1,7 @@
 import React from "react";
 import Nav from './Nav'
 import ExperienceListing from './ExperienceListing'
+import Footer from './Footer'
 
 class Experience extends React.Component {
 
@@ -50,6 +51,7 @@ class Experience extends React.Component {
             />
             </div>
           </div>
+          <Footer />
         </div>
     )
   }

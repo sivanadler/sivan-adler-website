@@ -8,6 +8,21 @@ body {
 
 /* NAV BAR */
 
+.footer {
+   /* position: fixed; */
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #fcfcfc;
+   color: white;
+   text-align: center;
+   padding: 15px;
+}
+
+.footer-text {
+  color: #5e5b55;
+  font-size: 18px;
+}
 
 #menuToggle{
   display: block;
@@ -1515,6 +1530,13 @@ button.aws-sld__controls  {
     font-size: 25px;
     color: white;
     visibility: visible;
+  }
+
+  .footer-text {
+    color: #5e5b55;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
 }

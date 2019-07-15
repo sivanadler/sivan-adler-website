@@ -17,6 +17,7 @@ import aws from './icons/aws.svg'
 import bootstrap from './icons/bootstrap.svg'
 import npm from './icons/npm.svg'
 import logo from './images/my-logo.png'
+import Footer from './Footer'
 
 class About extends React.Component {
 
@@ -84,6 +85,7 @@ class About extends React.Component {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
     )
   }

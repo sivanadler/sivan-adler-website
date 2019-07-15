@@ -4,6 +4,7 @@ import Nav from './Nav'
 import github from './icons/github.svg'
 import linkedin from './icons/linkedin.svg'
 import wordpress from './icons/wordpress.svg'
+import Footer from './Footer'
 
 class Home extends React.Component {
 
@@ -19,6 +20,7 @@ class Home extends React.Component {
           <a href="https://sivanadler.wordpress.com/"> <img className="social-icons" src={wordpress}/> </a>
 
         </div>
+        <Footer />
       </div>
     )
   }
