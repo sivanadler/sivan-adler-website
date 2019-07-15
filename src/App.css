@@ -1158,9 +1158,10 @@ button.aws-sld__controls  {
   }
 
   div.left {
+    position: fixed;
     width: 100%;
     overflow: scroll;
-    height: 10%;
+    height: 20%;
   }
 
   .right {
