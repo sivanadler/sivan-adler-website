@@ -30,7 +30,6 @@ class Contact extends React.Component {
             />
           </div>
         </div>
-        <Footer />
       </div>
     )
   }

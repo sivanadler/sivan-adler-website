@@ -66,7 +66,6 @@ class Project extends React.Component {
             screenShots={[softipy1, softipy2, softipy3]}
           />
         </div>
-        <Footer />
       </div>
     )
   }

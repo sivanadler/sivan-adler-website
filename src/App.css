@@ -11,7 +11,7 @@ body {
 .footer {
    left: 0;
    bottom: 0;
-   width: 100%;
+
    background-color: #fcfcfc;
    color: white;
    text-align: center;
@@ -20,7 +20,10 @@ body {
 
 .footer-text {
   color: #5e5b55;
+  width: 60%;
   font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #menuToggle{
@@ -36,7 +39,7 @@ body {
   height: 50px;
   padding-top: 30px;
   padding-left: 20px;
-  box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+  /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
 }
 
 #menuToggle input{
@@ -100,9 +103,9 @@ body {
   width: 20%;
   padding-top: 2%;
   margin: 23px 0 0 -50px;
-  -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  /* -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
   -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
-  box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  box-shadow: 10px 2px 44px -14px rgba(159,163,171,1); */
   background: #9ca5ad;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -116,9 +119,10 @@ body {
   transform: none;
 }
 
+
 .left {
   position: fixed;
-  /* overflow: hidden; */
+  overflow: hidden;
   z-index: 10;
 }
 
@@ -164,7 +168,7 @@ body {
   color: #2a4570;
 }
 
-.active {
+a.active {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -175,13 +179,14 @@ body {
   text-decoration: none;
   color: #2a4570;
   width: 100%;
+  background-color: #9ca5ad;
 }
 
 .logo-nav-link {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   text-align: center;
   font-size: 30px;
   text-decoration: none;
@@ -205,16 +210,16 @@ body {
 
 /* HOME PAGE */
 .home-page-div{
-  width: 50%;
+  width: 70%;
   margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 8%;
   padding: 5%;
   background-color: white;
-  -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  /* -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
   -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
-  box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+  box-shadow: 10px 2px 44px -14px rgba(159,163,171,1); */
 }
 
 .socials {
@@ -268,15 +273,15 @@ body {
   text-align: justify;
   z-index: 1;
   width: 70%;
+  padding: 5%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 12%;
-  margin-bottom: 10%;
+  margin-top: 8%;
+  margin-bottom: 8%;
   font-size: 33px;
   background-color: white;
-  padding: 30px;
   color: #5e5b55;
-  box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+  /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -434,12 +439,12 @@ p.education-text {
   padding-top: 1%;
   padding-bottom: 8%;
   margin-top:4%;
-  margin-bottom:5%;
+  margin-bottom:8%;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   height: 100%;
-  box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+  /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   font-family: "Montserrat", sans-serif;
   text-align: left;
 
@@ -450,14 +455,13 @@ p.education-text {
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 1%;
-  padding-bottom: 1%;
-  margin-top: 12%;
-  /* margin-bottom: 2%; */
+  margin-top: 8%;
+  margin-bottom: 2%;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
   height: 100%;
-  box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+  /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -586,14 +590,13 @@ button.aws-sld__controls  {
 .contact-form {
   background-color: white;
   margin-left: auto;
-  margin-top: 15%;
-  margin-bottom: 5%;
+  margin-top: 8%;
+  margin-bottom: 8%;
   margin-right: auto;
-  padding-top: 2%;
-  padding-bottom: 3%;
+  padding: 5%;
   width: 70%;
   text-align: center;
-  box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+  /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -690,7 +693,7 @@ button.aws-sld__controls  {
     height: 50px;
     padding-top: 30px;
     padding-left: 20px;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   }
 
   .home-page-div{
@@ -699,11 +702,11 @@ button.aws-sld__controls  {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8%;
-    padding: 5%;
+    padding: 8%;
     background-color: white;
-    -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    /* -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
     -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
-    box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    box-shadow: 10px 2px 44px -14px rgba(159,163,171,1); */
   }
 
 
@@ -726,7 +729,7 @@ button.aws-sld__controls  {
     color: #2a4570;
   }
 
-  .active {
+  a.active {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -776,9 +779,9 @@ button.aws-sld__controls  {
     margin-bottom: 10%;
     font-size: 33px;
     background-color: white;
-    padding: 20px;
+    padding: 8%;
     color: #5e5b55;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     font-family: "Montserrat", sans-serif;
   }
 
@@ -829,7 +832,7 @@ button.aws-sld__controls  {
     margin-right: auto;
     width: 70%;
     height: 100%;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     font-family: "Montserrat", sans-serif;
     text-align: left;
   }
@@ -845,7 +848,7 @@ button.aws-sld__controls  {
     margin-right: auto;
     width: 70%;
     height: 100%;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     font-family: "Montserrat", sans-serif;
   }
 
@@ -1003,7 +1006,7 @@ button.aws-sld__controls  {
     color: #2a4570;
   }
 
-  .active {
+  a.active {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1065,7 +1068,7 @@ button.aws-sld__controls  {
     margin-right: auto;
     width: 70%;
     height: 100%;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     font-family: "Montserrat", sans-serif;
     text-align: left;
   }
@@ -1095,7 +1098,7 @@ button.aws-sld__controls  {
     height: 50px;
     padding-top: 30px;
     padding-left: 20px;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   }
 
   #menu{
@@ -1109,9 +1112,9 @@ button.aws-sld__controls  {
     width: 100%;
     z-index: 0;
     margin-top: 4%;
-    -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    /* -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
     -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
-    box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    box-shadow: 10px 2px 44px -14px rgba(159,163,171,1); */
     background: #9ca5ad;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
@@ -1128,7 +1131,7 @@ button.aws-sld__controls  {
     top: 20px;
     left: 10px;
     cursor: pointer;
-    opacity: 0;
+    opacity: 1;
     z-index: 2;
     -webkit-touch-callout: none;
   }
@@ -1152,7 +1155,7 @@ button.aws-sld__controls  {
     color: #2a4570;
   }
 
-  .active {
+  a.active {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1161,7 +1164,7 @@ button.aws-sld__controls  {
     text-align: center;
     font-size: 18px;
     text-decoration: none;
-    background-color: white;
+    background-color: #9ca5ad;
     color: #2a4570;
     width: 100%;
   }
@@ -1195,7 +1198,7 @@ button.aws-sld__controls  {
 
   .left {
     position: fixed;
-    /* width: 100%; */
+    width: 100%;
     overflow: hidden;
   }
 
@@ -1213,9 +1216,9 @@ button.aws-sld__controls  {
     margin-bottom: 15%;
     padding: 5%;
     background-color: white;
-    -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    /* -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
     -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
-    box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    box-shadow: 10px 2px 44px -14px rgba(159,163,171,1); */
   }
 
   .header {
@@ -1267,7 +1270,7 @@ button.aws-sld__controls  {
     background-color: white;
     padding: 20px;
     color: #5e5b55;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     font-family: "Montserrat", sans-serif;
   }
 
@@ -1321,7 +1324,7 @@ button.aws-sld__controls  {
     margin-right: auto;
     width: 70%;
     height: 100%;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     font-family: "Montserrat", sans-serif;
     text-align: left;
   }
@@ -1337,7 +1340,7 @@ button.aws-sld__controls  {
     margin-right: auto;
     width: 70%;
     height: 100%;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     font-family: "Montserrat", sans-serif;
   }
 
@@ -1444,7 +1447,7 @@ button.aws-sld__controls  {
     display: block;
     margin-top: 1%;
     margin-right: 3%;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     background-color: none;
     float: right;
   }
@@ -1527,7 +1530,7 @@ button.aws-sld__controls  {
     padding-bottom: 7%;
     width: 80%;
     text-align: center;
-    box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21);
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     font-family: "Montserrat", sans-serif;
   }
 
