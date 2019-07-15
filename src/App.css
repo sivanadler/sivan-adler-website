@@ -176,7 +176,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   text-align: center;
   font-size: 30px;
   text-decoration: none;
@@ -1101,6 +1101,7 @@ button.aws-sld__controls  {
   }
 
   .logo-nav-link {
+    margin-top: 0px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -1117,6 +1118,7 @@ button.aws-sld__controls  {
     width: 70px;
     height: 70px;
     text-align: center;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 8px;
