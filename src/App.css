@@ -1562,11 +1562,13 @@ button.aws-sld__controls  {
   }
 
   .mobile-text {
-    right: 9%;
+    right: 10%;
     top: 3%;
+    width: 60%;
     position: absolute;
-    font-size: 25px;
+    font-size: 18px;
     color: white;
+    text-align: right;
     visibility: visible;
   }
 
