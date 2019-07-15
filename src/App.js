@@ -8,6 +8,7 @@ import Contact from './Contact'
 import Education from './Education'
 import Experience from './Experience'
 import Footer from './Footer'
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
 
@@ -20,6 +21,7 @@ class App extends React.Component {
           <Nav history={this.props.history}/>
         </div>
         <div className="right">
+
           <Route exact path="/home" render={routerProps => <Home {...routerProps}/>}/>
 
           <Route exact path="/about" render={routerProps => <About {...routerProps}/>}/>
