@@ -1133,7 +1133,7 @@ button.aws-sld__controls  {
     left: 10px;
     cursor: pointer;
     opacity: 0;
-    z-index: 2;
+    z-index: 4;
     -webkit-touch-callout: none;
   }
 
