@@ -27,6 +27,7 @@ import indesign from './icons/indesign.svg'
 import illustrator from './icons/illustrator.svg'
 import designthinking from './icons/designthinking.svg'
 import invision from './icons/invision.svg'
+import outlook from './icons/outlook.svg'
 import Footer from './Footer'
 
 class About extends React.Component {
@@ -47,37 +48,37 @@ class About extends React.Component {
                 <div id="wrapper">
                   <img className="icons rounded" src={javascript}/>
                   <div class="overlay">
-                    <div class="text">JAVASCRIPT</div>
+                    <div class="text">Javascript</div>
                   </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={react}/>
                   <div class="overlay">
-                    <div class="text">REACT</div>
+                    <div class="text">React</div>
                   </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={redux}/>
                   <div class="overlay">
-                    <div class="text">REDUX</div>
+                    <div class="text">Redux</div>
                   </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={npm}/>
                   <div class="overlay">
-                    <div class="text">NPM</div>
+                    <div class="text">npm</div>
                   </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={ruby}/>
                   <div class="overlay">
-                    <div class="text">RUBY</div>
+                    <div class="text">Ruby</div>
                   </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={rails}/>
                   <div class="overlay">
-                    <div class="text">RAILS</div>
+                    <div class="text">Rails</div>
                   </div>
                 </div>
                 <div id="wrapper">
@@ -95,7 +96,7 @@ class About extends React.Component {
                 <div id="wrapper">
                   <img className="icons rounded" src={bootstrap}/>
                   <div class="overlay">
-                    <div class="text">BOOTSTRAP</div>
+                    <div class="text">Bootstrap</div>
                   </div>
                 </div>
                 <div id="wrapper">
@@ -107,25 +108,25 @@ class About extends React.Component {
                 <div id="wrapper">
                   <img className="icons rounded" src={postgres}/>
                   <div class="overlay">
-                    <div class="text">POSTGRESQL</div>
+                    <div class="text">PostgreSQL</div>
                   </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={git}/>
                   <div class="overlay">
-                    <div class="text">GIT</div>
+                    <div class="text">Git</div>
                   </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={github}/>
                   <div class="overlay">
-                    <div class="text">GITHUB</div>
+                    <div class="text">Github</div>
                   </div>
                 </div>
                 <div id="wrapper">
                   <img className="icons rounded" src={heroku}/>
                   <div class="overlay">
-                    <div class="text">HEROKU</div>
+                    <div class="text">Heroku</div>
                   </div>
                 </div>
                 <div id="wrapper">
@@ -194,6 +195,12 @@ class About extends React.Component {
               <img className="icons rounded" src={powerpoint}/>
               <div class="overlay">
                 <div class="text">Microsoft Powerpoint</div>
+              </div>
+            </div>
+            <div id="wrapper">
+              <img className="icons rounded" src={outlook}/>
+              <div class="overlay">
+                <div class="text">Microsoft Outlook</div>
               </div>
             </div>
           </div>
