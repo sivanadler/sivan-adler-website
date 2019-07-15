@@ -120,7 +120,7 @@ body {
   position: fixed;
   width: 20%;
   overflow: hidden;
-  height: 20%;
+  /* height: 20%; */
   z-index: 1;
 }
 
