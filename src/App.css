@@ -973,6 +973,9 @@ button.aws-sld__controls  {
     background-color: none;
     float: right;
   }
+  button.aws-sld__controls  {
+    background-color: white;
+  }
 
   .mobile-text {
     right: 10%;
@@ -992,7 +995,7 @@ button.aws-sld__controls  {
   }
 
   .menu-text {
-    visibility: hidden;
+      visibility: hidden;
   }
 
   .contact-form {
@@ -1103,9 +1106,9 @@ button.aws-sld__controls  {
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  /* a {
+  a {
     z-index: 20;
-  } */
+  }
 
 
   #menuToggle span{
@@ -1126,10 +1129,11 @@ button.aws-sld__controls  {
     height: 50px;
     padding-top: 30px;
     padding-left: 20px;
-    z-index: 4;
+    z-index: 2;
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   }
 
-  #menu {
+  #menu{
     position: fixed;
     overflow: scroll;
     padding-top: 15px;
@@ -1148,6 +1152,21 @@ button.aws-sld__controls  {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
 
+  /* #menu{
+    position: fixed;
+    height: 90%;
+    overflow: scroll;
+    width: 100%;
+    padding-top: 2%;
+    margin: 23px 0 0 -50px;
+    background: #9ca5ad;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  } */
+
   #menuToggle input{
     display: block;
     width: 40px;
@@ -1156,7 +1175,7 @@ button.aws-sld__controls  {
     top: 20px;
     left: 10px;
     cursor: pointer;
-    opacity: 0;
+    opacity: 1;
     z-index: 4;
     -webkit-touch-callout: none;
   }
@@ -1250,7 +1269,9 @@ button.aws-sld__controls  {
   .left {
     position: fixed;
     overflow: hidden;
-    z-index: 1;
+    /* z-index: 1; */
+    height: 100%;
+    width: 100%;
   }
 
   .right {
@@ -1496,10 +1517,12 @@ button.aws-sld__controls  {
     position: relative;
     width: 100%;
     display: block;
+    margin-top: 1%;
+    margin-right: 3%;
+    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     background-color: none;
     float: right;
   }
-
   button.aws-sld__controls  {
     background-color: white;
   }
@@ -1508,6 +1531,7 @@ button.aws-sld__controls  {
     padding: 10px;
     background-color: #9ca5ad;
   }
+
 
   .education-listing {
     margin-left: 3%;
