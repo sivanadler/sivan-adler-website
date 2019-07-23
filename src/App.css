@@ -1352,6 +1352,19 @@ button.aws-sld__controls  {
     text-align: center;
   }
 
+  .text {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
   #wrapper {
     padding: 5%;
     display: inline-block;
