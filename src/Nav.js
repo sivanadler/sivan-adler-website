@@ -9,49 +9,36 @@ import logo from './images/my-logo.png'
 import { Link, animateScroll as scroll } from "react-scroll";
 
 class Nav extends React.Component {
+  state = {
+    checked: false,
+  }
 
-  // handleAboutMe = () => {
-  //   this.props.history.push('/about')
-  // }
-  //
-  // handleGoHome = () => {
-  //   this.props.history.push('/')
-  // }
-  //
-  // handleProjects = () => {
-  //   this.props.history.push('/projects')
-  // }
-  //
-  // handleContact = () => {
-  //   this.props.history.push('/contact')
-  // }
-  //
-  // handleEducation = () => {
-  //   this.props.history.push('/education')
-  // }
-  //
-  // handleExperience = () => {
-  //   this.props.history.push('/experience')
-  // }
-
-  handleMenuToggle = () => {
-    var input = document.querySelector('#checkbox').checked = false
-    return input
-
-    //trying to figure out how to uncheck checkbox when navlink is clicked
+  handleCloseNav = () => {
+    var input = document.querySelector('input')
+    this.setState({
+      checked: false
+    })
   }
 
   scrollToTop = () => {
-    scroll.scrollToTop();
+    scroll.scrollToTop()
+    this.setState({
+      checked: false
+    })
   };
 
+  toggleMenu = e => {
+    this.setState({
+      checked: !this.state.checked
+    }, () => console.log(this.state))
+  }
 
   render() {
     return (
       <div className="nav">
         <nav role="navigation">
           <div id="menuToggle">
-            <input id="checkbox" type="checkbox" />
+            <input id="checkbox" type="checkbox" checked={this.state.checked} onClick={this.toggleMenu}/>
               <span className='hamburger'></span>
               <span className='hamburger'></span>
               <span className='hamburger'></span>
@@ -83,6 +70,7 @@ class Nav extends React.Component {
               <li className="main-nav-link" onClick={this.handleAboutMe}>
                 <Link
                   activeClass="active"
+                  onClick={this.handleCloseNav}
                   to="about"
                   spy={true}
                   smooth={true}
@@ -94,6 +82,7 @@ class Nav extends React.Component {
               </li>
               <li className="main-nav-link">
                 <Link
+                  onClick={this.handleCloseNav}
                   activeClass="active"
                   to="projects"
                   spy={true}
@@ -106,6 +95,7 @@ class Nav extends React.Component {
               </li>
               <li className="main-nav-link">
                 <Link
+                  onClick={this.handleCloseNav}
                   activeClass="active"
                   to="education"
                   spy={true}
@@ -118,6 +108,7 @@ class Nav extends React.Component {
               </li>
               <li className="main-nav-link">
                 <Link
+                  onClick={this.handleCloseNav}
                   activeClass="active"
                   to="experience"
                   spy={true}
@@ -130,6 +121,7 @@ class Nav extends React.Component {
               </li>
               <li className="main-nav-link">
                 <Link
+                  onClick={this.handleCloseNav}
                   activeClass="active"
                   to="contact"
                   spy={true}
