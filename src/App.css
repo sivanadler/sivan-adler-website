@@ -973,9 +973,6 @@ button.aws-sld__controls  {
     background-color: none;
     float: right;
   }
-  button.aws-sld__controls  {
-    background-color: white;
-  }
 
   .mobile-text {
     right: 10%;
@@ -995,7 +992,7 @@ button.aws-sld__controls  {
   }
 
   .menu-text {
-      visibility: hidden;
+    visibility: hidden;
   }
 
   .contact-form {
@@ -1106,9 +1103,9 @@ button.aws-sld__controls  {
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  a {
+  /* a {
     z-index: 20;
-  }
+  } */
 
 
   #menuToggle span{
@@ -1129,11 +1126,10 @@ button.aws-sld__controls  {
     height: 50px;
     padding-top: 30px;
     padding-left: 20px;
-    z-index: 2;
-    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
+    z-index: 4;
   }
 
-  #menu{
+  #menu {
     position: fixed;
     overflow: scroll;
     padding-top: 15px;
@@ -1500,12 +1496,10 @@ button.aws-sld__controls  {
     position: relative;
     width: 100%;
     display: block;
-    margin-top: 1%;
-    margin-right: 3%;
-    /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
     background-color: none;
     float: right;
   }
+
   button.aws-sld__controls  {
     background-color: white;
   }
@@ -1514,7 +1508,6 @@ button.aws-sld__controls  {
     padding: 10px;
     background-color: #9ca5ad;
   }
-
 
   .education-listing {
     margin-left: 3%;

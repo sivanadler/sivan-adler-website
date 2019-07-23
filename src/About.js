@@ -137,70 +137,72 @@ class About extends React.Component {
                 </div>
             </div>
             <h2 className="about-text">OTHER SKILLS</h2>
-            <div id="wrapper">
-              <img className="icons rounded" src={ux}/>
-              <div class="overlay">
-                <div class="text">UX/UI Design</div>
+            <div id="skills-wrapper">
+              <div id="wrapper">
+                <img className="icons rounded" src={ux}/>
+                <div class="overlay">
+                  <div class="text">UX/UI Design</div>
+                </div>
               </div>
-            </div>
-            <div id="wrapper">
-              <img className="icons rounded" src={designthinking}/>
-              <div class="overlay">
-                <div class="text">Design Thinking</div>
+              <div id="wrapper">
+                <img className="icons rounded" src={designthinking}/>
+                <div class="overlay">
+                  <div class="text">Design Thinking</div>
+                </div>
               </div>
-            </div>
-            <div id="wrapper">
-              <img className="icons rounded" src={sketch}/>
-              <div class="overlay">
-                <div class="text">Sketch</div>
+              <div id="wrapper">
+                <img className="icons rounded" src={sketch}/>
+                <div class="overlay">
+                  <div class="text">Sketch</div>
+                </div>
               </div>
-            </div>
-            <div id="wrapper">
-              <img className="icons rounded" src={invision}/>
-              <div class="overlay">
-                <div class="text">Invision</div>
+              <div id="wrapper">
+                <img className="icons rounded" src={invision}/>
+                <div class="overlay">
+                  <div class="text">Invision</div>
+                </div>
               </div>
-            </div>
-            <div id="wrapper">
-              <img className="icons rounded" src={photoshop}/>
-              <div class="overlay">
-                <div class="text"> Adobe Photoshop</div>
+              <div id="wrapper">
+                <img className="icons rounded" src={photoshop}/>
+                <div class="overlay">
+                  <div class="text"> Adobe Photoshop</div>
+                </div>
               </div>
-            </div>
-            <div id="wrapper">
-              <img className="icons rounded" src={illustrator}/>
-              <div class="overlay">
-                <div class="text"> Adobe Illustrator</div>
+              <div id="wrapper">
+                <img className="icons rounded" src={illustrator}/>
+                <div class="overlay">
+                  <div class="text"> Adobe Illustrator</div>
+                </div>
               </div>
-            </div>
-            <div id="wrapper">
-              <img className="icons rounded" src={indesign}/>
-              <div class="overlay">
-                <div class="text"> Adobe Indesign</div>
+              <div id="wrapper">
+                <img className="icons rounded" src={indesign}/>
+                <div class="overlay">
+                  <div class="text"> Adobe Indesign</div>
+                </div>
               </div>
-            </div>
-            <div id="wrapper">
-              <img className="icons rounded" src={excel}/>
-              <div class="overlay">
-                <div class="text">Microsoft Excel</div>
+              <div id="wrapper">
+                <img className="icons rounded" src={excel}/>
+                <div class="overlay">
+                  <div class="text">Microsoft Excel</div>
+                </div>
               </div>
-            </div>
-            <div id="wrapper">
-              <img className="icons rounded" src={word}/>
-              <div class="overlay">
-                <div class="text">Microsoft Word</div>
+              <div id="wrapper">
+                <img className="icons rounded" src={word}/>
+                <div class="overlay">
+                  <div class="text">Microsoft Word</div>
+                </div>
               </div>
-            </div>
-            <div id="wrapper">
-              <img className="icons rounded" src={powerpoint}/>
-              <div class="overlay">
-                <div class="text">Microsoft Powerpoint</div>
+              <div id="wrapper">
+                <img className="icons rounded" src={powerpoint}/>
+                <div class="overlay">
+                  <div class="text">Microsoft Powerpoint</div>
+                </div>
               </div>
-            </div>
-            <div id="wrapper">
-              <img className="icons rounded" src={outlook}/>
-              <div class="overlay">
-                <div class="text">Microsoft Outlook</div>
+              <div id="wrapper">
+                <img className="icons rounded" src={outlook}/>
+                <div class="overlay">
+                  <div class="text">Microsoft Outlook</div>
+                </div>
               </div>
             </div>
           </div>
