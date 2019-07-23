@@ -38,6 +38,7 @@ body {
   height: 50px;
   padding-top: 30px;
   padding-left: 20px;
+  z-index: 10;
   /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
 }
 
