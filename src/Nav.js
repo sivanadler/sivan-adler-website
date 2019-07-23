@@ -30,7 +30,7 @@ class Nav extends React.Component {
   toggleMenu = e => {
     this.setState({
       checked: !this.state.checked
-    }, () => console.log(this.state))
+    })
   }
 
   render() {
