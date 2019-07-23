@@ -17,9 +17,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <div className="left">
           <Nav history={this.props.history}/>
-        </div>
         <div className="right">
         <Element name="home" className="home" >
             <Home />

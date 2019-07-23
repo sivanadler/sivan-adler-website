@@ -1266,13 +1266,13 @@ button.aws-sld__controls  {
     background-color: #9ca5ad;
   }
 
-  .left {
+  /* .left {
     position: fixed;
     overflow: hidden;
-    z-index: 0;
+    z-index: 1;
     height: 100%;
     width: 100%;
-  }
+  } */
 
   .right {
     position: relative;
