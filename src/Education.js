@@ -1,7 +1,6 @@
 import React from "react";
 import Nav from './Nav'
 import EducationListing from './EducationListing'
-import Footer from './Footer'
 
 class Education extends React.Component {
 

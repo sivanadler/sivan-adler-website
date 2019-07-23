@@ -1,10 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
-import { Redirect } from 'react-router'
-import sivan from './images/sivan-adler.jpg'
-import linkedin from './icons/linkedin.png'
-import wordpress from './icons/wordpress.png'
-import github from './icons/github.png'
 import logo from './images/my-logo.png'
 import { Link, animateScroll as scroll } from "react-scroll";
 

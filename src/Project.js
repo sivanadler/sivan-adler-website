@@ -15,7 +15,6 @@ import superscript1 from './images/superscript1.png'
 import superscript2 from './images/superscript2.png'
 import superscript3 from './images/superscript3.png'
 import superscript4 from './images/superscript4.png'
-import Footer from './Footer'
 
 class Project extends React.Component {
 

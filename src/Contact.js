@@ -1,8 +1,6 @@
 import React from "react";
-import ContactForm from './ContactForm'
 import Nav from './Nav'
 import ReactContactForm from 'react-mail-form';
-import Footer from './Footer'
 
 class Contact extends React.Component {
 

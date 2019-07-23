@@ -8,8 +8,7 @@ import Contact from './Contact';
 import Education from './Education';
 import Experience from './Experience';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom'
-import logo from './images/my-logo.png'
+import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 ReactDOM.render(
   <Router>
