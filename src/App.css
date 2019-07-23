@@ -1133,7 +1133,7 @@ button.aws-sld__controls  {
     /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   }
 
-  /* #menu{
+  #menu{
     position: fixed;
     overflow: scroll;
     padding-top: 15px;
@@ -1144,21 +1144,6 @@ button.aws-sld__controls  {
     width: 100%;
     z-index: 1;
     margin-top: 4%;
-    background: #9ca5ad;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  } */
-
-  #menu{
-    position: fixed;
-    height: 90%;
-    overflow: scroll;
-    width: 100%;
-    padding-top: 2%;
-    margin: 23px 0 0 -50px;
     background: #9ca5ad;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
