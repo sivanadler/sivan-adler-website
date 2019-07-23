@@ -118,13 +118,6 @@ body {
   transform: none;
 }
 
-
-.left {
-  position: fixed;
-  overflow: hidden;
-  z-index: 1;
-}
-
 .right {
   position: relative;
   width: 100%;
@@ -1175,7 +1168,7 @@ button.aws-sld__controls  {
     top: 20px;
     left: 10px;
     cursor: pointer;
-    opacity: 1;
+    opacity: 0;
     z-index: 20;
     -webkit-touch-callout: none;
   }
@@ -1265,14 +1258,6 @@ button.aws-sld__controls  {
     border-radius: 15em;
     background-color: #9ca5ad;
   }
-
-  /* .left {
-    position: fixed;
-    overflow: hidden;
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-  } */
 
   .right {
     position: relative;
