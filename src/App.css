@@ -586,6 +586,7 @@ button.aws-sld__controls  {
   padding: 5%;
   width: 70%;
   text-align: center;
+  z-index: 0;
   /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   font-family: "Montserrat", sans-serif;
 }
