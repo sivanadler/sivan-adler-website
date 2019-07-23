@@ -273,7 +273,7 @@ a.active {
   padding: 5%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 8%;
+  margin-top: 5%;
   margin-bottom: 8%;
   font-size: 33px;
   background-color: white;
@@ -693,6 +693,24 @@ button.aws-sld__controls  {
     /* box-shadow: -11px 13px 52px 0px rgba(0,0,0,0.21); */
   }
 
+  #menu{
+    position: fixed;
+    height: 90%;
+    overflow: scroll;
+    width: 30%;
+    padding-top: 2%;
+    margin: 23px 0 0 -50px;
+    /* -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    box-shadow: 10px 2px 44px -14px rgba(159,163,171,1); */
+    background: #9ca5ad;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+
   .home-page-div{
     width: 70%;
     margin-top: 20%;
@@ -759,7 +777,7 @@ button.aws-sld__controls  {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 5px;
     border: 2px solid #FFFFFF;
     border-radius: 15em;
@@ -772,7 +790,7 @@ button.aws-sld__controls  {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 10%;
     font-size: 33px;
     background-color: white;
@@ -839,7 +857,7 @@ button.aws-sld__controls  {
     padding-left: 7%;
     padding-right: 7%;
     padding-top: 5%;
-    margin-top: 20%;
+    margin-top: 10%;
     margin-bottom: 5%;
     margin-left: auto;
     margin-right: auto;
@@ -934,7 +952,6 @@ button.aws-sld__controls  {
     padding-left: 10px;
   }
 
-
   p.description {
     font-size: 12px;
     width: 100%;
@@ -979,6 +996,18 @@ button.aws-sld__controls  {
 
   .menu-text {
       visibility: hidden;
+  }
+
+  .contact-form {
+    background-color: white;
+    margin-left: auto;
+    margin-top: 15%;
+    margin-bottom: 8%;
+    margin-right: auto;
+    padding: 5%;
+    width: 70%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
   }
 }
 
@@ -1119,32 +1148,32 @@ button.aws-sld__controls  {
     transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   } */
 
-  #menu{
-    position: fixed;
-    height: 90%;
-    overflow: scroll;
-    width: 100%;
-    padding-top: 2%;
-    margin: 23px 0 0 -50px;
-    background: #9ca5ad;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
-
   #menuToggle input{
     display: block;
-    width: 40px;
-    height: 32px;
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 20px;
-    left: 10px;
+    top: -10px;
+    left: 20px;
     cursor: pointer;
     opacity: 0;
-    z-index: 4;
+    z-index: 2;
     -webkit-touch-callout: none;
+  }
+
+  #menuToggle span{
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: white;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 4px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
   }
 
   #menuToggle span:first-child{
@@ -1171,6 +1200,29 @@ button.aws-sld__controls  {
   #menuToggle input:checked ~ span:nth-last-child(2){
     opacity: 1;
     transform: rotate(45deg) translate(-10px, -1px);
+  }
+
+  #menu{
+    position: fixed;
+    height: 90%;
+    overflow: scroll;
+    width: 20%;
+    padding-top: 2%;
+    margin: 23px 0 0 -50px;
+    /* -webkit-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    -moz-box-shadow: 10px 2px 44px -14px rgba(159,163,171,1);
+    box-shadow: 10px 2px 44px -14px rgba(159,163,171,1); */
+    background: #9ca5ad;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+
+
+  #menuToggle input:checked ~ ul{
+    transform: none;
   }
 
   .main-nav-link{
